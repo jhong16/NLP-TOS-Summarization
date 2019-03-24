@@ -73,5 +73,5 @@ class Summarizer():
 
 		return inverse_doc_freq
 
-	def tf_idf(self, word1, word2):
-		return self.term_freq[word1] * self.inverse_doc_freq[word2]
+	def tf_idf(self, term):
+		return self.term_freq[term] * self.inverse_doc_freq[term]
