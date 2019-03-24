@@ -4,10 +4,18 @@ from lexrank import Summarizer
 
 # might become command line tool? or should it be a library?
 if __name__ == '__main__':
-	filename = sys.argv[1]
+	if len(sys.argv) > 1:
+		filename = sys.argv[1]
+	else:
+		sys.exit("Usage: python main.py <input_tos_file.txt>")
 
 	sentences = parse_tos(filename)
 
 	summarizer = Summarizer()
 
 	summarizer.create_graph(sentences)
+	scores = summarizer.power_method()
+	ranking = summarizer.rank_sentences(scores)
+	
+	for sentence, rank in ranking:
+		print(sentence, rank)
