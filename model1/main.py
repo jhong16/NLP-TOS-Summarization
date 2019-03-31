@@ -1,5 +1,6 @@
 import sys
 from parse import parse_tos
+from sentence_compress import SentenceCompress
 from lexrank import Summarizer
 
 # might become command line tool? or should it be a library?
@@ -10,6 +11,9 @@ if __name__ == '__main__':
 		sys.exit("Usage: python main.py <input_tos_file.txt>")
 
 	sentences = parse_tos(filename)
+
+	# compressor = SentenceCompress()
+	# compressor.syntax_parse(sentences)
 
 	summarizer = Summarizer()
 
