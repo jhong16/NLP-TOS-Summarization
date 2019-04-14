@@ -27,6 +27,9 @@ def main():
 
 	model.rank_sentences()
 	print(model)
+	# print(model.word_bank)
+	# Print the 10 most common words
+	print(model.common_words(10))
 
 # might become command line tool? or should it be a library?
 if __name__ == '__main__':
