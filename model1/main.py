@@ -12,8 +12,8 @@ if __name__ == '__main__':
 
 	sentences = parse_tos(filename)
 
-	# compressor = SentenceCompress()
-	# compressor.syntax_parse(sentences)
+	compressor = SentenceCompress()
+	compressor.syntax_parse(sentences[:10])
 
 	summarizer = Summarizer()
 
@@ -21,5 +21,5 @@ if __name__ == '__main__':
 	scores = summarizer.power_method()
 	ranking = summarizer.rank_sentences(scores)
 	
-	for sentence, rank in ranking:
-		print(sentence, rank)
+	# for sentence, rank in ranking:
+	# 	print(sentence, rank)

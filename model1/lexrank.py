@@ -55,7 +55,7 @@ class Summarizer():
 	# should this actually be number of times word occurs in sentence?
 	def compute_tf(self):
 		total_words = sum(len(s) for s in self.sentences)
-		term_freq = dict() # sum(s.count() for s in sentences)
+		term_freq = dict()
 
 		# find frequencies of words in document and in individual sentence
 		for s in self.sentences:
