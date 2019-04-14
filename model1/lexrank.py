@@ -4,7 +4,7 @@ from math import log, sqrt
 from operator import itemgetter
 import string
 
-class Summarizer():
+class Summarizer(object):
 	def __init__(self):
 		self.stop_words = set(parse_stop_words("../data/stopwords.txt")) | set(string.punctuation)
 		self.sentences = None

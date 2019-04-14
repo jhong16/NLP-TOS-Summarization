@@ -15,6 +15,9 @@ def sentence_tokenize_tos(data):
 def word_tokenize_tos(full_sentences):
 	return [word_tokenize(s) for s in full_sentences]
 
+def word_tokenize_sent(full_sentence):
+	return word_tokenize(full_sentence)
+
 # add punctuation to stop words?
 def parse_stop_words(filename):
 	with open(filename, 'r') as f:
