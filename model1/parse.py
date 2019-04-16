@@ -16,6 +16,10 @@ def word_tokenize_tos(full_sentences):
 	return [word_tokenize(s) for s in full_sentences]
 
 # takes text file of list of stopwords separated by newline
+def word_tokenize_sent(full_sentence):
+	return word_tokenize(full_sentence)
+
+# add punctuation to stop words?
 def parse_stop_words(filename):
 	with open(filename, 'r') as f:
 		data = f.readlines()
