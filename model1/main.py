@@ -29,7 +29,16 @@ def main():
 	# print(model)
 	# print(model.word_bank)
 	# Print the 10 most common words
-	print(model.common_words(10))
+	# print(model.common_words(10))
+	html_output = model.highlight_phrases()
+	# print(html_output)
+
+	# f_name = args.input_tos_file.replace(".txt", ".html")
+	f_name = "output.html"
+	# print(f_name)
+	fd = open(f_name, "w")
+	fd.write(html_output)
+
 
 # might become command line tool? or should it be a library?
 if __name__ == '__main__':

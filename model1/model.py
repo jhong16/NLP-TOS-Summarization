@@ -8,6 +8,7 @@ class Sentence(object):
         self.words = [Word(word) for word in words]
         self.rank = rank
         self.named_entities = dict() # start_p: phrase
+        self.keywords = None
 
     def __repr__(self):
         s = ""

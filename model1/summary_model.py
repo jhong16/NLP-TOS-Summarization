@@ -1,3 +1,4 @@
+from highlighter import rake, highlight
 from lexrank import Summarizer
 from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
@@ -45,6 +46,25 @@ class SummaryModel(object):
                 words = parse.word_tokenize_sent(sentence)
                 self.sentences.append(Sentence(sentence, words))
 
+    def highlight_phrases(self):
+        for sentence in self.sentences:
+            sentence.keywords = rake(sentence.sentence)
+
+        html_output = '''<style>
+        body { background-color:white; }
+        .red { background-color:#ffcccc; }
+        .orange { background-color:#FFFF00; }
+        .yellow { background-color:#ff9966; }
+        .green { background-color:#66ff66; }
+        .blue { background-color:#00ffff; }
+        .purple { background-color:#ff99ff; }
+        p { background-color:#FFFFFF; }
+        </style>'''
+
+        for sentence in self.sentences:
+            html_output += highlight(sentence.sentence, sentence.keywords)
+
+        return html_output
                 
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model
