@@ -2,7 +2,10 @@ import argparse
 import os.path
 import sys
 
+from lexrank import Summarizer
 from summary_model import load
+from parse import parse_tos
+from sentence_compress import SentenceCompress
 
 
 def main():
@@ -19,11 +22,24 @@ def main():
 	model = load(fp)
 	fp.close()
 
-	# UNCOMMENT for sentence compression. Btw it's very slow.
-	# model.compress_sentences()
+	# compressor = SentenceCompress()
+	# compressor.syntax_parse(sentences)
 
 	model.rank_sentences()
-	print(model)
+	# print(model)
+	# print(model.word_bank)
+	# Print the 10 most common words
+	# print(model.common_words(10))
+	html_output = model.highlight_phrases()
+	# print(html_output)
 
+	# f_name = args.input_tos_file.replace(".txt", ".html")
+	f_name = "output.html"
+	# print(f_name)
+	fd = open(f_name, "w")
+	fd.write(html_output)
+
+
+# might become command line tool? or should it be a library?
 if __name__ == '__main__':
 	sys.exit(main())

@@ -17,7 +17,7 @@ class Summarizer(object):
 	# adjacency matrix, since graph is dense
 	def create_graph(self, sentences):
 		self.sentences = sentences
-		self.term_freq = self.compute_tf()
+		self.term_freq = self.compute_tf(sentences)
 		self.inverse_doc_freq = self.compute_idf()
 
 		n = len(self.sentences)
@@ -53,12 +53,12 @@ class Summarizer(object):
 
 	# compute term frequency (could still be useful)
 	# should this actually be number of times word occurs in sentence?
-	def compute_tf(self):
-		total_words = sum(len(s) for s in self.sentences)
-		term_freq = dict()
+	def compute_tf(self, sentences):
+		total_words = sum(len(s) for s in sentences)
+		term_freq = dict() # sum(s.count() for s in sentences)
 
 		# find frequencies of words in document and in individual sentence
-		for s in self.sentences:
+		for s in sentences:
 			for word in s:
 				if word not in self.stop_words:
 					if word in term_freq:
