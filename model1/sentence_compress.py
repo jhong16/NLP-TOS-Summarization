@@ -1,5 +1,4 @@
 from model import Sentence, Word
-# import model # I don't like that I have to import this
 from nltk.tree import Tree
 from nltk.parse.stanford import StanfordParser
 from math import sqrt
@@ -178,3 +177,23 @@ class SentenceCompress:
 		if s[-1] not in string.punctuation:
 			s = s + '.'
 		return s
+
+# Sets based on what's safest to remove. The higher the set number, the more important the clause probably is, and removing it
+# should be more based on word importance and level of compression wanted.
+
+# Set 0
+# - parenthetical elements. I'm not sure if I can find this with stanford parser so it might be some kind of preprocessing.
+# - adverbs except negative some temporal or degree adverbs. ADVP.
+# - adjectives of what kind? different than Chinese
+# - Interjections and fragments? entire sentence may be interjection though, that should probably be removed in preprocessing.
+
+# Set 1
+# - children of NP nodes except temporal nouns and proper nouns and the last noun word? does this make sense for English?
+# - can I try to get rid of some things in really long lists if word importance is low enough?
+# - constructions of form [XP [XP ..] ...], remove higher XP, where XP is NP, VP or S (requires choosing subtree and getting rid of rest)
+# - trailing prepositional phrases (PP) and SBARs
+
+# will I be assigning importance to clauses, and then running over tree again to choose what to ignore, or doing it on the fly?
+# do I need a function to go over trimmed tree and reconstruct it? let's hope it will still make sense.
+
+# start from deepest rightmost node when iteratively getting rid of things?
