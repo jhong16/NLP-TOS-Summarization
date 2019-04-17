@@ -2,28 +2,14 @@ from parse import word_tokenize_tos, sentence_tokenize_tos
 import json, string
 
 def split_lists(tos):
-	final_tos = tos.copy()
 	added_count = 0
 	for i, sentence in enumerate(tos[:]):
-		if not sentence.startswith('---') and '---' in sentence:
-			# print(sentence)
+		if not sentence.startswith(' ---') and '---' in sentence:
 			parts = sentence.split('---')
 			tos[i+added_count] = parts[0]
-			tos.insert(i+added_count+1, '<li>' + parts[1])
-			print(parts[1:])
-			# final_tos[i+added_count] = parts[0]
-			# final_tos.insert(i+added_count+1, parts[1])
-			added_count += 1
-
-			# # print(parts)
-			# final_tos[i+added_count] = parts[0]
-			# for j in range(1,len(parts)):
-			# 	final_tos.insert(i+added_count+j, '<li>' + parts[j])
-			# 	# print("list sentence", sentence, final_tos[i+added_count+j])
-			# added_count += len(parts)-1
-		# else:
-		# 	final_tos[i+added_count] = sentence
-	# return final_tos
+			for j in range(1, len(parts)):
+				tos.insert(i + added_count + j, '<li>' + parts[j])
+			added_count += len(parts)-1
 	return tos
 
 # takes filename of JSON file parsed with parsing/url2html.py
@@ -71,14 +57,13 @@ def code_of_conduct_negate(tos):
 	for i, sentence in enumerate(tos):
 		if not in_list and sentence.startswith('<li>') and i > 0:
 			prev_words = word_tokenize_tos([tos[i-1].strip()])[0]
-			# print("prev_words", prev_words[-5:])
 			if len(prev_words) > 6 and prev_words[-1][-1] == ':' and 'not' in prev_words[-6:]:
 				head_sentence = tos[i-1].rstrip()[:-1]
-				print(format_code_of_conduct_list_item(head_sentence, tos[i]))
+				# print(format_code_of_conduct_list_item(head_sentence, tos[i]))
 				j = i
 				while tos[j].startswith('<li>') and j < len(tos):
 					tos[j] = format_code_of_conduct_list_item(head_sentence, tos[j])
-					print("!!!!!", tos[j])
+					print(tos[j])
 					j += 1
 			else:
 				tos[i] = tos[i].lstrip('<li>')
@@ -89,11 +74,9 @@ def code_of_conduct_negate(tos):
 def preprocess(filename):
 	documents = get_sentence_data(filename)
 	for website, tos in documents.items():
-		if website == 'rovio': # for now
+		if website == 'github': # for now
 			tos = eliminate(tos)
 			tos = code_of_conduct_negate(tos)
-			# for sentence in tos:
-			# 	print(sentence)
 
 # for now
 if __name__ == '__main__':
@@ -117,3 +100,16 @@ if __name__ == '__main__':
 # You agree that you will not, under any circumstances harvest, scrape or collect any information about or regarding other people that use the Services, including, but not limited to, through use of pixel tags, cookies, GIFs or similar items that are sometimes also referred to as spyware.
 # You agree that you will not, under any circumstances post anyone's private information, including personally identifiable information/personal data (whether in text, image or video form), identification documents, or financial information through the Services.
 # You agree that you will not, under any circumstances engage in any act that Rovio deems to conflict with the spirit or intent of the Services or make improper use of Rovio´s support services.
+
+# Reddit example
+# Except as permitted through the Services or as otherwise permitted by us in writing, your license does not include the right to cense, sell, transfer, assign, distribute, host, or otherwise commercially exploit the Services or Content.
+# Except as permitted through the Services or as otherwise permitted by us in writing, your license does not include the right to modify, prepare derivative works of, disassemble, decompile, or reverse engineer any part of the Services or Content; or.
+# Except as permitted through the Services or as otherwise permitted by us in writing, your license does not include the right to access the Services or Content in order to build a similar or competitive website, product, or service, except as permitted under the Reddit API Terms of Use.We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice to you.
+# When accessing or using our Services, you will not create or submit Content that violates our Content Policy or attempt to circumvent any content-filtering techniques we use.
+# When accessing or using our Services, you will not use the Services to violate applicable law or infringe any person or entity's intellectual property or any other proprietary rights.
+# When accessing or using our Services, you will not attempt to gain unauthorized access to another user’s Account or to the Services (or to other computer systems or networks connected to or used together with the Services.
+# When accessing or using our Services, you will not upload, transmit, or distribute to or through the Services any computer viruses, worms, or other software intended to interfere with the intended operation of a computer system or data.
+# When accessing or using our Services, you will not use the Services to harvest, collect, gather or assemble information or data regarding the Services or users of the Services except as permitted in these Terms or in a separate agreement with Reddit.
+# When accessing or using our Services, you will not use the Services in any manner that could interfere with, disrupt, negatively affect, or inhibit other users from fully enjoying the Services or that could damage, disable, overburden, or impair the functioning of the Services in any manner.
+# When accessing or using our Services, you will not intentionally negate any user's actions to delete or edit their Content on the Services; or.
+# When accessing or using our Services, you will not access, query, or search the Services with any automated system, other than through our published interfaces and pursuant to their applicable terms.
