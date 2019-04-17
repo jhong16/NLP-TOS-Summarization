@@ -46,26 +46,23 @@ class SummaryModel(object):
                 words = parse.word_tokenize_sent(sentence)
                 self.sentences.append(Sentence(sentence, words))
 
-    def highlight_phrases(self):
+    def shorten(self, percentage):
+        if percentage < 0.01 or percentage > 1:
+            print("Invalid Percentage")
+            return
+        ranks = [sentence.rank for sentence in self.sentences]
+        threshold = sorted(ranks, reverse=True)[0:int(len(ranks) * percentage)][-1]
+
+        print(f"{percentage*100}% of the Summary")
+        short_summary = list()
         for sentence in self.sentences:
-            sentence.keywords = rake(sentence.sentence)
+            if sentence.rank > threshold:
+                short_summary.append(sentence)
+                print(f"{sentence.sentence}")
+        return short_summary
 
-        html_output = '''<style>
-        body { background-color:white; }
-        .red { background-color:#ffcccc; }
-        .orange { background-color:#FFFF00; }
-        .yellow { background-color:#ff9966; }
-        .green { background-color:#66ff66; }
-        .blue { background-color:#00ffff; }
-        .purple { background-color:#ff99ff; }
-        p { background-color:#FFFFFF; }
-        </style>'''
 
-        for sentence in self.sentences:
-            html_output += highlight(sentence.sentence, sentence.keywords)
 
-        return html_output
-                
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model
     """
