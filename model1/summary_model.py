@@ -1,5 +1,5 @@
 from lexrank import Summarizer
-from model import Sentence, Word
+from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
 import parse
 
@@ -10,6 +10,7 @@ class SummaryModel(object):
         for sentence in sentence_tokens:
             words = parse.word_tokenize_sent(sentence)
             self.sentences.append(Sentence(sentence, words))
+        self.word_bank = WordBank(self.sentences)
 
     def __repr__(self):
         s = ""
@@ -29,6 +30,9 @@ class SummaryModel(object):
         for i in range(0, len(self.sentences)):
             self.sentences[i].rank = scores[i]
 
+    def common_words(self, top_n):
+        return self.word_bank.top(top_n)
+
     # maybe compress_sentences should be an option when initializing summary model?
     def compress_sentences(self):
         compressor = SentenceCompress()
@@ -41,6 +45,7 @@ class SummaryModel(object):
                 words = parse.word_tokenize_sent(sentence)
                 self.sentences.append(Sentence(sentence, words))
 
+                
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model
     """

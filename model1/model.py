@@ -1,5 +1,6 @@
 import parse
 
+from lexrank import Summarizer
 
 class Sentence(object):
     def __init__(self, sentence, words, rank=None, ne=None):
@@ -42,5 +43,3 @@ class WordBank(object):
 class Word(object):
     def __init__(self, token):
         self.token = token
-        self.idf = idf
-        self.tf = tf
