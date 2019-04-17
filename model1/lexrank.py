@@ -4,7 +4,7 @@ from math import log, sqrt
 from operator import itemgetter
 import string
 
-class Summarizer():
+class Summarizer(object):
 	def __init__(self):
 		self.stop_words = set(parse_stop_words("../data/stopwords.txt")) | set(string.punctuation)
 		self.sentences = None
@@ -55,7 +55,7 @@ class Summarizer():
 	# should this actually be number of times word occurs in sentence?
 	def compute_tf(self):
 		total_words = sum(len(s) for s in self.sentences)
-		term_freq = dict() # sum(s.count() for s in sentences)
+		term_freq = dict()
 
 		# find frequencies of words in document and in individual sentence
 		for s in self.sentences:
