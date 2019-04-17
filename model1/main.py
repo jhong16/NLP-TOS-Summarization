@@ -2,10 +2,7 @@ import argparse
 import os.path
 import sys
 
-from lexrank import Summarizer
-from model import load
-from parse import parse_tos
-from sentence_compress import SentenceCompress
+from summary_model import load
 
 
 def main():

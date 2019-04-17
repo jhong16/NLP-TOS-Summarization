@@ -1,41 +1,37 @@
-# from model import Sentence, Word
-import model # I don't like that I have to import this
+from model import Sentence, Word
+# import model # I don't like that I have to import this
 from nltk.tree import Tree
 from nltk.parse.stanford import StanfordParser
 from math import sqrt
 import string, re
 
 class SentenceCompress:
-	# Initialize syntactic parser and parameters for word significance and desired sentence length.
 	def __init__(self, omega=0.001, alpha=20, beta=100):
+		""" Initialize syntactic parser and parameters for word significance and
+			desired sentence length."""
 		self.parser = StanfordParser()
-		self.omega = omega # Proper noun importance. should experiment with this?
+		self.omega = omega # Proper noun importance
 		self.alpha = alpha # min sentence length in characters
 		self.beta = beta # max sentence length in characters
 		self.parsed_sentences = None
 
-	# should take list of Sentence objects.
 	def syntax_parse(self, sentences):
+		""" Take list of Sentence objects and get syntactic parse trees. """
 		self.parsed_sentences = self.parser.raw_parse_sents([s.sentence for s in sentences]) # only testing w/ first 10
 
-	# apply rules in set 0 and set 1
 	def compress(self):
+		""" Apply rules in set 0 and set 1. """
 		compressed_sentences = []
-		# some (or all) of the traverse_tree_set_# functions should have iterations
-		# I could specifiy percentage I want gone, or number of iterations, or min and max length
 		for list_iter in self.parsed_sentences:
 			for t in list_iter:
 				original = self.tree_to_sentence(t)
 				min_len = self.min_length(original)
 				max_len = self.max_length(original)
-				# print(original, "max_len = {}    min_len = {}".format(max_len, min_len))
 				if len(original) >= min_len:
 					self.set_0(t) # probably not goog that this relies on side effects
 					t = self.set_1(t, max_len, min_len)
 					s = self.tree_to_sentence(t) # could check if this is above min and desired max length
-					# print(s, len(original) - len(s), '\n')
-					if len(s) > 2:
-						compressed_sentences.append(s)
+					compressed_sentences.append(s)
 		return compressed_sentences
 
 	# input might be Ji hann's word class, which might include POS tag, named entity, that sort of thing 
@@ -48,19 +44,23 @@ class SentenceCompress:
 		return 0 # 0 otherwise
 
 	def information_density_measurement(self):
+		# TODO: implement (if needed)
 		pass
 
 	def min_length(self, sentence):
+		""" Desired minimum length of sentence. """
 		return min(len(sentence), self.alpha)
 
 	def max_length(self, sentence):
+		""" Desired maximum length of sentence, depending on length of original sentence. """
 		orig_length = len(sentence)
 		if orig_length > self.beta:
 			return self.beta + sqrt(orig_length - self.beta)
 		return orig_length
 
-	# make sure that deepest rightmost elements are trimmed first
 	def traverse_tree_set_0(self, tree, phrases):
+		""" Trim elements matching phrase types in 'phrases'.
+			Should this be iterative? """
 		clause_sig = 0
 		for index, node in enumerate(tree): # iterate backwards?
 			if type(node) == Tree:
@@ -78,17 +78,14 @@ class SentenceCompress:
 					clause_sig += word_sig
 		return clause_sig
 
-	# Get rid of clauses that very likely arne't important. No need for iteration.
 	def set_0(self, tree):
+		""" Get rid of clauses that very likely arne't important. No need for iteration. """
 		phrases = ['ADVP', 'PRN', 'FRAG', 'INTJ']
 		self.traverse_tree_set_0(tree, phrases)
 
-	# something else. Unimportant date and location information?
-	def set_1(self, tree):
-		pass
-
-	# get number of levels of outermost XP pattern. Pattern is [XP [XP ...] ... ] where XP is NP, VP, or S.
 	def set_1_find_xp_levels(self, tree, decl_clause, level, found_xp):
+		""" Get number of levels of outermost XP pattern.
+			Pattern is [XP [XP ...] ... ] where XP is NP, VP, or S. """
 		clause_sig = 0
 		max_levels = level
 		for index, node in enumerate(tree):
@@ -101,9 +98,11 @@ class SentenceCompress:
 					levels = self.set_1_find_xp_levels(node, decl_clause, level, found_xp)
 		return max_levels
 
-	# remove outermost tree in XP pattern. Find first subtree of type decl_clause and return.
 	def set_1_remove_outer_xp(self, tree, decl_clause):
-		for index, node in enumerate(tree): # left to right, because if there's multiple options then return the leftmost subtree
+		""" remove outermost tree in XP pattern. Find first subtree of type decl_clause and return.
+			Iterate left to right, because if there's multiple options then return the leftmost subtree.
+		"""
+		for index, node in enumerate(tree):
 			if type(node) == Tree:
 				if node.label() == decl_clause:
 					# remove outer S by returning child.
@@ -115,16 +114,15 @@ class SentenceCompress:
 					subtree = self.set_1_remove_outer_xp(node, decl_clause)
 					if subtree is not None:
 						return subtree
-			else:
-				return None
 		return None # return self? idk
 
-	# get rid of trailing PPs and SBARs, deepest rightmost.
 	def set_1_trailing(self, tree, phrase_type):
-		for index, node in reversed(list(enumerate(tree))): # reversed so rightmost elements will be looked at first
+		""" Get rid of first trailing (deepest rightmost) PP or SBAR. Iteration is reversed so
+			rightmost elements will be looked at first. """
+		for index, node in reversed(list(enumerate(tree))):
 			if type(node) == Tree:
 				if index == len(tree)-1 and node.label() == phrase_type:
-					tree[index] = None # should I make sure this only happens once so it can be done iteratively?
+					tree[index] = None
 					return True
 				else:
 					found = self.set_1_trailing(node, phrase_type)
@@ -132,15 +130,16 @@ class SentenceCompress:
 						return True
 		return False
 
-	# iteratively remove clauses and phrases in an attempt to reduce sentence to less than max_len.
 	def set_1(self, tree, max_len, min_len):
+		""" Iteratively remove clauses and phrases in an attempt to reduce sentence to
+			less than max_len. """
 		XPs = ['S', 'NP', 'VP']
-		for clause in XPs: # while sentence is long (more than max length)...
+		for clause in XPs:
 			current_sentence_len = len(self.tree_to_sentence(tree))
 			if (current_sentence_len < max_len):
 				break
 			levels = self.set_1_find_xp_levels(tree, clause, 0, False)
-			while levels > 1: # and length of sentence is more than max length?
+			while levels > 1:
 				current_sentence_len = len(self.tree_to_sentence(tree))
 				if (current_sentence_len < max_len):
 					break
@@ -155,21 +154,23 @@ class SentenceCompress:
 		return tree
 
 	def tree_to_sentence_helper(self, tree, sentence_str):
+		""" Recursive helper to convert nltk tree, which may have nodes with value 'None',
+			to sentence """
 		for index, node in enumerate(tree):
 			if type(node) == Tree:
 				sentence_str = self.tree_to_sentence_helper(node, sentence_str)
 			elif node != None:
 				if node[0] in string.punctuation:
-					return sentence_str + node # word
+					return sentence_str + node
 				else:
 					return sentence_str + ' ' + node
 		return sentence_str
 
 	def tree_to_sentence(self, tree):
+		""" convert nltk tree, which may have nodes with value 'None', to sentence. """
 		s = self.tree_to_sentence_helper(tree, '').strip()
 		if len(s) == 0:
 			return s
-		# lstrip punctuation?
 		if s[0] in string.punctuation:
 			s = s.lstrip(string.punctuation)
 		if s[0].islower():
