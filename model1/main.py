@@ -28,16 +28,17 @@ def main():
 
 	model.rank_sentences()
 	# print(model)
-	# print(model.word_bank)
 	# Print the 10 most common words
 	# print(model.common_words(10))
 
 	percent = .02
-
 	short_summary = model.shorten(percent)
+	# print(f"{percent*100}% of the Summary")
+	# for sentence in short_summary:
+	# 	print(sentence.sentence)
 
-	html_output = highlight_phrases(short_summary)
-	# print(html_output)
+	# html_output = highlight_phrases(short_summary)
+	html_output = highlight_phrases(model.sentences)
 
 	# f_name = args.input_tos_file.replace(".txt", ".html")
 	f_name = "output.html"

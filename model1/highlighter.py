@@ -1,4 +1,5 @@
 import RAKE
+import re
 
 def rake(sentence):
     # print(sentence)
@@ -9,14 +10,16 @@ def rake(sentence):
 
 def highlight(sentence, keywords, colors, levels):
     output_string = "<p>"
-    new_sentence = sentence.lower()
+    new_sentence = sentence
     if len(levels) < len(colors) + 1:
         colors = colors[0:len(levels)-1]
     for keyword in keywords:
         for i in range(0, len(colors)):
             if keyword[1] < levels[i] and keyword[1] > levels[i+1]:
                 # print(levels[i], colors[i], levels[i+1])
-                new_sentence = new_sentence.replace(keyword[0], f"<span class='{colors[i]}'>{keyword[0]}</span>")
+                match = re.search(keyword[0], sentence, flags=re.IGNORECASE)
+                if match is not None:
+                    new_sentence = re.sub(keyword[0], f"<span class='{colors[i]}'>{match[0]}</span>", sentence, flags=re.IGNORECASE)
     output_string += new_sentence
     output_string += "</p>"
 

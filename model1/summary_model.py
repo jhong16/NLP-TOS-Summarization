@@ -53,12 +53,12 @@ class SummaryModel(object):
         ranks = [sentence.rank for sentence in self.sentences]
         threshold = sorted(ranks, reverse=True)[0:int(len(ranks) * percentage)][-1]
 
-        print(f"{percentage*100}% of the Summary")
+        # print(f"{percentage*100}% of the Summary")
         short_summary = list()
         for sentence in self.sentences:
             if sentence.rank > threshold:
                 short_summary.append(sentence)
-                print(f"{sentence.sentence}")
+                # print(f"{sentence.sentence}")
         return short_summary
 
 
