@@ -1,5 +1,6 @@
+from highlighter import rake, highlight
 from lexrank import Summarizer
-from model import Sentence, Word
+from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
 import parse
 
@@ -10,6 +11,7 @@ class SummaryModel(object):
         for sentence in sentence_tokens:
             words = parse.word_tokenize_sent(sentence)
             self.sentences.append(Sentence(sentence, words))
+        self.word_bank = WordBank(self.sentences)
 
     def __repr__(self):
         s = ""
@@ -29,6 +31,9 @@ class SummaryModel(object):
         for i in range(0, len(self.sentences)):
             self.sentences[i].rank = scores[i]
 
+    def common_words(self, top_n):
+        return self.word_bank.top(top_n)
+
     # maybe compress_sentences should be an option when initializing summary model?
     def compress_sentences(self):
         compressor = SentenceCompress()
@@ -41,6 +46,26 @@ class SummaryModel(object):
                 words = parse.word_tokenize_sent(sentence)
                 self.sentences.append(Sentence(sentence, words))
 
+    def highlight_phrases(self):
+        for sentence in self.sentences:
+            sentence.keywords = rake(sentence.sentence)
+
+        html_output = '''<style>
+        body { background-color:white; }
+        .red { background-color:#ffcccc; }
+        .orange { background-color:#FFFF00; }
+        .yellow { background-color:#ff9966; }
+        .green { background-color:#66ff66; }
+        .blue { background-color:#00ffff; }
+        .purple { background-color:#ff99ff; }
+        p { background-color:#FFFFFF; }
+        </style>'''
+
+        for sentence in self.sentences:
+            html_output += highlight(sentence.sentence, sentence.keywords)
+
+        return html_output
+                
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model
     """
