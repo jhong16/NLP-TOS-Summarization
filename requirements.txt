@@ -3,3 +3,4 @@ nltk
 urllib3
 bs4
 scikit-learn
+python-rake
