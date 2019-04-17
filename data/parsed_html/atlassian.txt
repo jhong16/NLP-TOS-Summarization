@@ -1,0 +1,100 @@
+
+
+
+Atlassian Cloud Terms of Service
+
+
+Effective starting: November 1, 2018 
+
+
+Thanks for using Atlassian’s Cloud Products!  These Atlassian Cloud Terms of Service (these
+      “Terms”) describe your rights and responsibilities as a customer of our Cloud Products. As
+      applicable to the specific Cloud Product, if you are being invited or added to a Cloud Product set up by an
+      Atlassian customer, the User Notice governs your access and use of the
+      Cloud Product (and not these Terms).  These Terms are between you and the Atlassian entity that owns or
+      operates the Cloud Product that you are using or accessing listed here (“Atlassian”, “we”
+      or “us”).  “You” means the entity you represent in accepting these Terms
+      or, if that does not apply, you individually.  If you are accepting on behalf of your employer or another
+      entity, you represent and warrant that: (i) you have full legal authority to bind your employer or such entity to
+      these Terms; (ii) you have read and understand these Terms; and (iii) you agree to these Terms on behalf of the
+      party that you represent. If you don’t have the legal authority to bind your employer or the applicable entity
+      please do not click “I agree” (or similar button or checkbox) that is presented to you.  PLEASE NOTE
+        THAT IF YOU SIGN UP FOR A CLOUD PRODUCT USING AN EMAIL ADDRESS FROM YOUR EMPLOYER OR ANOTHER ENTITY, THEN (A)
+        YOU WILL BE DEEMED TO REPRESENT SUCH PARTY, (B) YOUR CLICK TO ACCEPT WILL BIND YOUR EMPLOYER OR THAT ENTITY TO
+        THESE TERMS, AND (C) THE WORD “YOU” IN THESE TERMS WILL REFER TO YOUR EMPLOYER OR THAT ENTITY.
+These Terms are effective as of the date you first click “I agree” (or similar button or checkbox) or
+          use or access a Cloud Product, whichever is earlier (the “Effective Date”). These Terms do not have to be
+          signed in order to be binding. You indicate your assent to these Terms by clicking “I agree” (or similar
+          button or checkbox) at the time you register for a Cloud Product, create a Cloud Product account, or place an
+          Order. For No-Charge Products, you also indicate your assent to these Terms by accessing or using the
+          applicable No-Charge Product.  
+
+
+1. What these Terms cover.
+1.1. Cloud Products. These Terms govern our Cloud Products, related Support, and
+      Additional Services. These Terms include Our Policies (including our Privacy
+        Policy), the Product-Specific Terms, and your Orders.
+1.2. Product-Specific Terms. Some Cloud Products may be subject to additional
+      terms specific to that product as set forth in the Product-Specific Terms. By accessing or using a product covered
+      by the Product-Specific Terms, you also agree to the Product-Specific Terms.
+1.3. Software Products Not Covered. These Terms do not apply to our downloadable
+      software products (currently designated as “Server” and “Data Center” deployments), use of which requires a
+      separate license agreement with us. For clarity, however, any client software (e.g., a desktop or mobile
+      application) we provide as part of the Cloud Products themselves remains subject to these Terms.
+2. How Cloud Products are administered.
+2.1. Administrators. Through the Cloud Products, you may be able to specify certain End
+      Users as Administrators, who will have important rights and controls over your use of Cloud Products and End User
+      Accounts. This may include making Orders for Cloud Products or enabling Apps (which may incur fees); creating,
+      de-provisioning, monitoring or modifying End User Accounts, and setting End User usage permissions; and managing
+      access to Your Data by End Users or others. Administrators may also take over management of accounts previously
+      registered using an email address belonging to your domain (which become “managed accounts”, as described in our
+      Documentation). Without limiting Section 2.4 (Responsibility for End Users), which fully applies to
+      Administrators, you are responsible for whom you allow to become Administrators and any actions they take,
+      including as described above. You agree that our responsibilities do not extend to the internal management or
+      administration of the Cloud Products for you.
+2.2. Reseller as Administrator. If you order Cloud Products through a Reseller, then
+      you are responsible for determining whether the Reseller may serve as an Administrator and for any related rights
+      or obligations in your applicable agreement with the Reseller.  As between you and Atlassian, you are solely
+      responsible for any access by Reseller to your accounts or your other End User Accounts.
+2.3. End User Consent. You will provide all required disclosures to and will
+      obtain and maintain all required consents from End Users to allow: (i) Administrators to have the access described
+      in these Terms and the Privacy Policy; and (ii) Atlassian’s provision of the
+      Cloud Products to Administrators and End Users. You will provide evidence of such consents upon our reasonable
+      request. 
+2.4. Responsibility for End Users. Our Cloud Products have various user onboarding
+      flows. Some Cloud Products require users to be designated by Administrators; some allow users to sign up for
+      individual accounts which can become associated with teams or organizations at a later time; and some may allow
+      users to invite other users. You are responsible for understanding the settings and controls for each Cloud
+      Product you use and for controlling whom you allow to become an End User. If payment is required for End Users to
+      use or access a Cloud Product, then we are only required to provide the Cloud Products to those End Users for whom
+      you have paid the applicable fees, and only such End Users are permitted to access and use the Cloud Products.
+      Some Cloud Products may allow you to designate different types of End Users (for example, Jira Service Desk
+      distinguishes between “agents” and “customers”), in which case pricing and functionality may vary according to the
+      type of End User. You are responsible for compliance with these Terms by all End Users, including for any payment
+      obligations. Please note that you are responsible for the activities of all your End Users, including Orders they
+      may place and how End Users use Your Data, even if those End Users are not from your organization or domain. We
+      may display our User Notice to End Users at sign up, account creation, Cloud
+      Product registration, or in-product. If you use single sign-on (SSO) for identity management of your Cloud
+      Product(s) such that End Users will bypass these screens and our User Notice, you
+      are responsible for displaying our User Notice to End Users and for any
+      damages resulting from your failure to do so.
+2.5. Credentials. You must require that all End Users keep their user IDs and
+      passwords for the Cloud Products strictly confidential and do not share such information with any unauthorized
+      person. User IDs are granted to individual, named persons and may not be shared. You are responsible for any and
+      all actions taken using End User Accounts and passwords, and you agree to immediately notify us of any
+      unauthorized use of which you become aware.
+2.6. Age Requirement for End Users. The Cloud Products are not intended for,
+      and should not be used by, anyone under the age of 16. You are responsible for ensuring that all End Users are at
+      least 16 years old.
+2.7. Domain Name Ownership. Where you are required to specify a domain for the
+      operation of a Cloud Product or certain Cloud Product features, we may verify that you own or control that domain.
+      If you do not own or control the domain you specify, then we will have no obligation to provide you with the Cloud
+      Product or Cloud Product features.
+3. What's included in your Cloud Product subscriptions; what are the restrictions.
+3.1. Access to Cloud Products. Subject to these Terms and during the applicable
+      Subscription Term, you may access and use the Cloud Products for your own business purposes or personal use, as
+      applicable, all in accordance with these Terms, the applicable Order and the Documentation. This includes the
+      right, as part of your authorized use of the Cloud Products, to download and use the client software associated
+      with the Cloud Products. The rights granted to you in this Section 3.1 are non-exclusive, non-
+
+
