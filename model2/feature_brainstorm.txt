@@ -1,13 +1,14 @@
 Only have to pick 1 summary as the ground truth
 
 Feature Brainstorming:
-- Length of sentence (# of words)
+- Length of sentence ignoring stop words (# of words)
+- Number of commas
 - Order of sentence from top of document (normalized by the total number of sentences there are in the entire ToS)
 - Order of sentence from beginning of each paragram (normalized by total number of sentences within each paragraph, or not?)
-- Number of words with capitals divided by total number of words in sentence (normalized)
-- Number of words with full capitals over total numbers of words in sentence (normalized)
+- Number of words with capitals divided by total number of words in sentence (!normalized)
+- Number of words with full capitals over total numbers of words in sentence (!normalized)
 - Relative paragraph order from top of document1
-- "Pikachu Pikachu Pichu" with sentence "Pikachu Pichu", (2/3)(1/2) of Pikachu, vs (1/3)(1/2) of Pichu, and rank the sentences in order of this
+- sentence tf-idf
 
 Paragraph:
 - Save previous line in tmp, then loop through it, everytime you see an empty line, then find the next non-empty line, so you need to put a paragraph marker. Take the previous sentence's last 15 character. If it's not 15, append it with 0s. Now, get the next line, take the first 15, then add them together and put it in a hashset.

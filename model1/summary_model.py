@@ -32,9 +32,8 @@ class SummaryModel(object):
     # maybe compress_sentences should be an option when initializing summary model?
     def compress_sentences(self):
         compressor = SentenceCompress()
-        compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
+        compressor.syntax_parse(self.sentences[:30]) # self.sentences is a list of Sentences
         sentences = compressor.compress()
-        print(sentences)
         self.sentences = []
         for sentence in sentences:
             if len(sentence) > 0:

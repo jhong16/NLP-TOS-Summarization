@@ -24,6 +24,9 @@ class SentenceCompress:
 		for list_iter in self.parsed_sentences:
 			for t in list_iter:
 				original = self.tree_to_sentence(t)
+				print('ORIGINAL')
+				print(t)
+				print(original)
 				min_len = self.min_length(original)
 				max_len = self.max_length(original)
 				if len(original) >= min_len:
@@ -31,6 +34,9 @@ class SentenceCompress:
 					t = self.set_1(t, max_len, min_len)
 					s = self.tree_to_sentence(t) # could check if this is above min and desired max length
 					compressed_sentences.append(s)
+					print('TRIMMED')
+					print(t)
+					print(s)
 		return compressed_sentences
 
 	# input might be Ji hann's word class, which might include POS tag, named entity, that sort of thing 
