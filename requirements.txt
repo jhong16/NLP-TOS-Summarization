@@ -5,3 +5,4 @@ bs4
 scikit-learn
 python-rake
 rouge
+spacy
