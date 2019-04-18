@@ -20,13 +20,12 @@ def main(training_file):
     for y2 in y:
         if y2 == 1:
             i = i + 1
-    print(y)
     print(clf.score(X, y))
 
-    # Cross-validation error
-    scores = cross_val_score(clf, cv = 1)
-    print(scores)
-
+    # k-Fold Cross Validation Error
+    k_scores = cross_val_score(clf, X, y, cv = 3)
+    print("3-fold CV:\nAccuracy: %0.2f (+/0 %0.2f)" % (k_scores.mean(), k_scores.std() * 2))
+    
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('--training_file', '-tf',
