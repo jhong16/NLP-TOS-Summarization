@@ -22,9 +22,8 @@ def main():
 	model = load(fp)
 	fp.close()
 
-	# compressor = SentenceCompress()
-	# compressor.syntax_parse(sentences)
-
+	# model.compress_sentences()
+	
 	model.rank_sentences()
 	# print(model)
 	# print(model.word_bank)
@@ -35,7 +34,6 @@ def main():
 
 	# f_name = args.input_tos_file.replace(".txt", ".html")
 	f_name = "output.html"
-	# print(f_name)
 	fd = open(f_name, "w")
 	fd.write(html_output)
 

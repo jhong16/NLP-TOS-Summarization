@@ -2,6 +2,7 @@ from highlighter import rake, highlight
 from lexrank import Summarizer
 from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
+from preprocess import preprocess
 import parse
 
 
@@ -36,8 +37,8 @@ class SummaryModel(object):
 
     # maybe compress_sentences should be an option when initializing summary model?
     def compress_sentences(self):
-        compressor = SentenceCompress()
-        compressor.syntax_parse(self.sentences[:30]) # self.sentences is a list of Sentences
+        compressor = SentenceCompress(alpha=50, beta=500)
+        compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
         sentences = compressor.compress()
         self.sentences = []
         for sentence in sentences:
@@ -71,3 +72,6 @@ def load(fp):
     data = fp.read()
     sent_tokenized = parse.sentence_tokenize_tos(data)
     return SummaryModel(sent_tokenized)
+
+    # tos = preprocess('../data/url2html_output.json')
+    # return SummaryModel(tos['rovio'])
