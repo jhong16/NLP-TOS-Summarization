@@ -12,7 +12,7 @@ def main(input_, output):
             if 'documents' in data[k].keys():
                 if len(data[k]["documents"]) != 0:
                     docs = data[k]["documents"]
-                    my_data[k] = {doc["name"]: doc["url"] for doc in docs}
+                    my_data[k.replace("tosdr/review/","")] = {doc["name"]: doc["url"] for doc in docs}
 
     with open(output, "w") as f:
         json.dump(my_data, f)

@@ -1,5 +1,6 @@
 import urllib3
 import json
+import re
 from bs4 import BeautifulSoup
 from argparse import ArgumentParser
 
@@ -14,12 +15,25 @@ def get_html_page(url):
     list_elems = soup.find_all('li')
     for i, elem in enumerate(list_elems):
         list_elems[i].replace_with("---" + elem.text)
+
     # kill all script and style elements
     for script in soup(["script", "style"]):
         script.decompose()    # rip it out
+
     # remove header tags, though they could be interesting for classification
     for header in soup(["h1", "h2", "h3"]):
         header.decompose()
+
+    nav_attr = [re.compile('(i?)nav'), re.compile('(i?)mast'), re.compile('(i?)foot')]
+    # kill navbars
+    for div in soup.find_all(class_=nav_attr):
+        div.decompose()
+
+    for div in soup.find_all(id=nav_attr):
+        div.decompose()
+
+    for button in soup.find_all('a', class_=re.compile('button')):
+        button.decompose()
 
     # get text
     text = soup.get_text()
@@ -39,14 +53,14 @@ def main(link_file, output_file):
     for company in companies:
         web_data[company] = {}
         for name, url in companies[company].items():
-            if name.lower() == "terms of service":
-                print('Connecting to {url}'.format(url=url))
-                try:
-                    text = get_html_page(url)
-                    web_data[company][url] = text
+            print('Connecting to {url}'.format(url=url))
+            try:
+                text = get_html_page(url)
+                text = re.sub('(\n)+', '\n', text)
+                web_data[company][url] = text
 
-                except urllib3.exceptions.RequestError as e:
-                    print(e)
+            except urllib3.exceptions.RequestError as e:
+                print(e)
 
     with open(output_file, "w") as fp:
         json.dump(web_data, fp)
