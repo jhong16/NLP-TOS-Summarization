@@ -7,8 +7,31 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 HTTP = urllib3.PoolManager()
 
-def main(link_file, output_file):
+def get_html_page(url):
+    res = HTTP.request('GET', url)
+    soup = BeautifulSoup(res.data, 'html.parser')
+    # keep list elements since they might be in code of conduct and negated.
+    list_elems = soup.find_all('li')
+    for i, elem in enumerate(list_elems):
+        list_elems[i].replace_with("---" + elem.text)
+    # kill all script and style elements
+    for script in soup(["script", "style"]):
+        script.decompose()    # rip it out
+    # remove header tags, though they could be interesting for classification
+    for header in soup(["h1", "h2", "h3"]):
+        header.decompose()
 
+    # get text
+    text = soup.get_text()
+
+    # break into lines and remove leading and trailing space on each
+    lines = (line.strip() for line in text.splitlines())
+    # break multi-headlines into a line each
+    chunks = (phrase.strip()
+              for line in lines for phrase in line.split("  "))
+    return text
+
+def main(link_file, output_file):
     with open(link_file, 'r') as fp:
         companies = json.load(fp)
 
@@ -19,21 +42,7 @@ def main(link_file, output_file):
             if name.lower() == "terms of service":
                 print('Connecting to {url}'.format(url=url))
                 try:
-                    res = HTTP.request('GET', url)
-                    soup = BeautifulSoup(res.data, 'html.parser')
-                    # kill all script and style elements
-                    for script in soup(["script", "style"]):
-                        script.decompose()    # rip it out
-
-                    # get text
-                    text = soup.get_text()
-
-                    # break into lines and remove leading and trailing space on each
-                    lines = (line.strip() for line in text.splitlines())
-                    # break multi-headlines into a line each
-                    chunks = (phrase.strip()
-                              for line in lines for phrase in line.split("  "))
-
+                    text = get_html_page(url)
                     web_data[company][url] = text
 
                 except urllib3.exceptions.RequestError as e:
