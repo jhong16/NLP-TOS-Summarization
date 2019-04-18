@@ -35,9 +35,8 @@ class SummaryModel(object):
     def common_words(self, top_n):
         return self.word_bank.top(top_n)
 
-    # maybe compress_sentences should be an option when initializing summary model?
-    def compress_sentences(self):
-        compressor = SentenceCompress(alpha=50, beta=500)
+    def compress_sentences(self, alpha=50, beta=500):
+        compressor = SentenceCompress(alpha, beta)
         compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
         sentences = compressor.compress()
         self.sentences = []
@@ -70,5 +69,6 @@ def load(fp):
     sent_tokenized = parse.sentence_tokenize_tos(data)
     return SummaryModel(sent_tokenized)
 
+    # to use processed html files:
     # tos = preprocess('../data/url2html_output.json')
     # return SummaryModel(tos['rovio'])
