@@ -5,6 +5,7 @@ import json
 import numpy as np
 from sklearn.svm import LinearSVC
 from argparse import ArgumentParser
+from sklearn.model_selection import cross_val_score
 
 def main(training_file):
     with open(training_file) as json_file:
@@ -18,12 +19,13 @@ def main(training_file):
     i = 1
     for y2 in y:
         if y2 == 1:
-            print(i)
             i = i + 1
-    print(y)
     print(clf.score(X, y))
 
-
+    # k-Fold Cross Validation Error
+    k_scores = cross_val_score(clf, X, y, cv = 3)
+    print("3-fold CV:\nAccuracy: %0.2f (+/0 %0.2f)" % (k_scores.mean(), k_scores.std() * 2))
+    
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('--training_file', '-tf',

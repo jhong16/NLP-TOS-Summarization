@@ -2,6 +2,7 @@ import argparse
 import os.path
 import sys
 
+from highlighter import highlight_phrases
 from lexrank import Summarizer
 from summary_model import load
 from parse import parse_tos
@@ -26,11 +27,17 @@ def main():
 	
 	model.rank_sentences()
 	# print(model)
-	# print(model.word_bank)
 	# Print the 10 most common words
 	# print(model.common_words(10))
-	html_output = model.highlight_phrases()
-	# print(html_output)
+
+	percent = .02
+	short_summary = model.shorten(percent)
+	# print(f"{percent*100}% of the Summary")
+	# for sentence in short_summary:
+	# 	print(sentence.sentence)
+
+	# html_output = highlight_phrases(short_summary)
+	html_output = highlight_phrases(model.sentences)
 
 	# f_name = args.input_tos_file.replace(".txt", ".html")
 	f_name = "output.html"
