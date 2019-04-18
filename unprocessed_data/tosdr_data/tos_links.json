@@ -1,20 +1,20 @@
 {
-  "tosdr/review/500px.com": {
+  "500px.com": {
     "Privacy Policy": "https://about.500px.com/privacy/",
     "Terms of Service": "https://about.500px.com/terms/"
   },
-  "tosdr/review/academia.edu": {
+  "academia.edu": {
     "Privacy Policy": "https://www.academia.edu/privacy",
     "Terms of Service": "https://www.academia.edu/terms"
   },
-  "tosdr/review/airbnb.com": {
+  "airbnb.com": {
     "Copyright Policy": "https://www.airbnb.com/terms"
   },
-  "tosdr/review/allrecipes.com": {
+  "allrecipes.com": {
     "Privacy Policy": "http://www.meredith.com/legal/privacy",
     "Terms and Conditions": "http://www.meredith.com/legal/terms"
   },
-  "tosdr/review/amazon.com": {
+  "amazon.com": {
     "Alexa Terms of Use": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
     "Amazon Appstore for Android Terms of Use": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201485660",
     "Amazon Coins Terms": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201434520",
@@ -44,7 +44,7 @@
     "Privacy Notice": "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496",
     "Security, Privacy & Accessibility": "http://www.amazon.com/gp/help/customer/display.html/?nodeId=551434"
   },
-  "tosdr/review/apple.com": {
+  "apple.com": {
     "Apple Support Communities Use Agreement": "https://discussions.apple.com/docs/DOC-5952",
     "Application-Based Services Terms of Use": "http://www.apple.com/internetservices/terms/membership_terms.html",
     "Game Center Terms and Conditions": "https://www.apple.com/legal/internet-services/itunes/gamecenter/us/terms.html",
@@ -54,88 +54,88 @@
     "iCloud Terms of Service": "https://www.apple.com/legal/internet-services/icloud/en/terms.html",
     "iTunes Terms of Service": "https://www.apple.com/legal/internet-services/itunes/us/terms.html"
   },
-  "tosdr/review/bbc.com": {
+  "bbc.com": {
     "Privacy and Cookies Policy": "http://www.bbc.com/usingthebbc/privacy-policy/",
     "Terms of Use": "http://www.bbc.com/usingthebbc/terms-of-use/"
   },
-  "tosdr/review/bing.com": {
+  "bing.com": {
     "Google Analytics Terms of Service": "https://www.google.com/analytics/terms/us.html",
     "Privacy Policy": "http://www.microsoft.com/privacystatement/en-us/bing/default.aspx",
     "Terms of Service": "https://policies.google.com/terms"
   },
-  "tosdr/review/blogspot.com": {
+  "blogspot.com": {
     "Privacy Policy": "https://policies.google.com/privacy",
     "Terms of Service": "https://policies.google.com/terms"
   },
-  "tosdr/review/cloudant.com": {
+  "cloudant.com": {
     "Privacy": "https://www.ibm.com/privacy/us/en/",
     "Terms of Service": "https://www.ibm.com/legal/us/en/"
   },
-  "tosdr/review/cnet.com": {
+  "cnet.com": {
     "Cbs Interactive Privacy Policy": "https://www.cbsinteractive.com/legal/cbsi/privacy-policy",
     "Privacy Policy": "https://cbsi.secure.force.com/CBSi/articles/FAQ/CBSi-Privacy-Policy?template=template_privacygl&referer=privacygl.com&data=&cfs=default"
   },
-  "tosdr/review/cnn.com": {
+  "cnn.com": {
     "Privacy Policy": "http://edition.cnn.com/privacy.html",
     "Privacy and Cookies Policy": "https://edition.cnn.com/privacy1",
     "Terms of Use": "https://edition.cnn.com/terms"
   },
-  "tosdr/review/couchsurfing.org": {
+  "couchsurfing.org": {
     "Privacy Policy": "http://about.couchsurfing.com/privacy-policy/",
     "Terms of Use": "http://about.couchsurfing.com/terms-of-use/"
   },
-  "tosdr/review/coursera.org": {
+  "coursera.org": {
     "Cookies Policy": "https://www.coursera.org/about/cookies",
     "Privacy Policy": "https://www.coursera.org/about/privacy",
     "Terms of Use": "https://www.coursera.org/about/terms"
   },
-  "tosdr/review/craigslist.org": {
+  "craigslist.org": {
     "Privacy Policy": "http://www.craigslist.org/about/privacy_policy"
   },
-  "tosdr/review/del.icio.us": {
+  "del.icio.us": {
     "Privacy Policy": "https://del.icio.us/privacy",
     "Terms of Service": "https://del.icio.us/terms",
     "Delicious Privacy Policy": "http://www.delicious.com/privacy"
   },
-  "tosdr/review/deviantart.com": {
+  "deviantart.com": {
     "Copyright Policy": "http://about.deviantart.com/policy/copyright/",
     "Etiquette Policy": "http://about.deviantart.com/policy/etiquette/",
     "Privacy Policy": "http://about.deviantart.com/policy/privacy/",
     "Terms of Service": "http://about.deviantart.com/policy/service/"
   },
-  "tosdr/review/dictionary.com": {
+  "dictionary.com": {
     "Privacy Policy": "http://dictionary.reference.com/help/privacy.html",
     "Terms of Service & Privacy Policy": "http://www.dictionary.com/e/terms/"
   },
-  "tosdr/review/disqus.com": {
+  "disqus.com": {
     "Privacy Policy": "https://help.disqus.com/terms-and-policies/disqus-privacy-policy",
     "Terms of Service": "https://help.disqus.com/terms-and-policies/terms-of-service",
     "Terms and Policies": "http://docs.disqus.com/kb/terms-and-policies/"
   },
-  "tosdr/review/dropbox.com": {
+  "dropbox.com": {
     "Privacy Policy": "https://www.dropbox.com/privacy"
   },
-  "tosdr/review/duckduckgo.com": {
+  "duckduckgo.com": {
     "Privacy Policy": "https://duckduckgo.com/privacy"
   },
-  "tosdr/review/ebay.com": {
+  "ebay.com": {
     "Privacy Policy": "http://pages.ebay.com/help/policies/privacy-policy.html?rt=nc",
     "Terms of Service": "http://pages.ebay.com/help/policies/user-agreement.html?rt=nc"
   },
-  "tosdr/review/etsy.com": {
+  "etsy.com": {
     "Privacy Policy": "http://www.etsy.com/help/article/1262"
   },
-  "tosdr/review/facebook.com": {
+  "facebook.com": {
     "Data Use Policy": "https://www.facebook.com/about/privacy",
     "Terms of Service": "https://www.facebook.com/legal/terms",
     "Cookie Policy": "https://www.facebook.com/help/cookies",
     "Full Data Use Policy": "http://www.facebook.com/full_data_use_policy"
   },
-  "tosdr/review/flattr.com": {
+  "flattr.com": {
     "Privacy Policy": "https://flattr.com/privacy",
     "Terms of Use": "https://flattr.com/terms"
   },
-  "tosdr/review/flickr.com": {
+  "flickr.com": {
     "Additional Terms of Service": "http://www.flickr.com/atos/pro/",
     "Community Guidelines": "http://www.flickr.com/help/guidelines/",
     "Flickr Privacy Policy": "https://policies.oath.com/us/en/oath/privacy/products/flickr/index.html",
@@ -143,18 +143,18 @@
     "Terms of Service": "https://policies.oath.com/us/en/oath/terms/otos/index.html",
     "Yahoo! Terms of Service": "http://www.yahoo.com/r/ts"
   },
-  "tosdr/review/foxnews.com": {
+  "foxnews.com": {
     "Closed Captioning Policy": "http://www.foxnews.com/closed-captioning-policy.html",
     "Privacy Policy": "http://www.foxnews.com/privacy-policy.html",
     "Terms of Service": "http://www.foxnews.com/about/terms-of-use/",
     "Terms of Use": "http://www.foxnews.com/terms-use.html"
   },
-  "tosdr/review/github.com": {
+  "github.com": {
     "Privacy Policy": "https://help.github.com/articles/github-privacy-statement/",
     "Security": "https://help.github.com/articles/github-security/",
     "Terms of Service": "https://help.github.com/articles/github-terms-of-service/"
   },
-  "tosdr/review/godaddy.com": {
+  "godaddy.com": {
     "Civil Subpoena Policy": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=CIVIL_SUBPOENA",
     "Domain Name Proxy Agreement": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=DOMAIN_NAMEPROXY",
     "Domain Name Registration Agreement": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=REG_SA",
@@ -163,181 +163,181 @@
     "Uniform Domain Name Dispute Resolution Policy": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=UNIFORM_DOMAIN",
     "Universal Terms Of Service": "https://www.godaddy.com/legal-agreements.aspx?ci=20802"
   },
-  "tosdr/review/goodreads.com": {
+  "goodreads.com": {
     "Privacy Policy": "http://www.goodreads.com/about/privacy"
   },
-  "tosdr/review/google.com": {
+  "google.com": {
     "Google Analytics Terms of Service": "https://www.google.com/analytics/terms/us.html",
     "Privacy Policy": "https://policies.google.com/privacy?hl=nl&gl=nl",
     "Terms of Service": "https://policies.google.com/terms",
     "Key terms": "https://www.google.com/intl/en/policies/privacy/key-terms/",
     "FAQ": "https://www.google.com/intl/en/policies/faq/"
   },
-  "tosdr/review/grammarly.com": {
+  "grammarly.com": {
     "Privacy Policy": "https://www.grammarly.com/privacy-policy",
     "Terms of Service and License Agreement": "https://www.grammarly.com/terms"
   },
-  "tosdr/review/groupon.com": {
+  "groupon.com": {
     "Privacy Policy": "http://www.groupon.com/privacy"
   },
-  "tosdr/review/icloud.com": {
+  "icloud.com": {
     "Privacy Policy": "http://www.apple.com/privacy/",
     "iCloud Terms of Service": "http://www.apple.com/legal/icloud/en/terms.html"
   },
-  "tosdr/review/ifttt.com": {
+  "ifttt.com": {
     "Privacy Policy": "https://ifttt.com/privacy",
     "Terms of Use": "https://ifttt.com/terms"
   },
-  "tosdr/review/imdb.com": {
+  "imdb.com": {
     "Privacy Policy": "http://www.imdb.com/privacy",
     "Terms of Service": "http://www.imdb.com/help/show_article?conditions"
   },
-  "tosdr/review/imgur.com": {
+  "imgur.com": {
     "Privacy Policy": "http://imgur.com/privacy",
     "Terms of Service": "http://imgur.com/tos"
   },
-  "tosdr/review/instagram.com": {
+  "instagram.com": {
     "Data Policy": "https://help.instagram.com/519522125107875",
     "Privacy Policy": "https://help.instagram.com/155833707900388",
     "Terms of Service": "https://help.instagram.com/581066165581870"
   },
-  "tosdr/review/lastpass.com": {
+  "lastpass.com": {
     "Privacy Statement": "https://www.logmeininc.com/legal/privacy",
     "Terms of Service": "https://www.logmeininc.com/legal/terms-and-conditions"
   },
-  "tosdr/review/linkedin.com": {
+  "linkedin.com": {
     "Privacy Policy": "https://www.linkedin.com/legal/privacy-policy",
     "Terms of Service": "https://www.linkedin.com/legal/user-agreement"
   },
-  "tosdr/review/microsoft.com": {
+  "microsoft.com": {
     "Microsoft Services Agreement": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx",
     "Privacy Policy": "https://privacy.microsoft.com/en-us/privacystatement"
   },
-  "tosdr/review/mint.com": {
+  "mint.com": {
     "Legal Information (Intuit)": "http://about.intuit.com/legal/",
     "Privacy Policy": "https://www.mint.com/how-it-works/security/policy/",
     "Terms of Use": "https://www.mint.com/how-it-works/security/terms/"
   },
-  "tosdr/review/netflix.com": {
+  "netflix.com": {
     "Privacy Policy": "https://help.netflix.com/legal/privacy",
     "Terms of Use": "https://help.netflix.com/legal/termsofuse"
   },
-  "tosdr/review/nytimes.com": {
+  "nytimes.com": {
     "Privacy Policy": "http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html"
   },
-  "tosdr/review/pinterest.com": {
+  "pinterest.com": {
     "Privacy Policy": "http://about.pinterest.com/privacy/",
     "Terms of Service": "http://about.pinterest.com/terms/"
   },
-  "tosdr/review/quakelive.com": {
+  "quakelive.com": {
     "EULA": "http://www.quakelive.com/legals/eula",
     "Legal Notices": "http://www.quakelive.com/legals/notices",
     "Privacy Policy": "http://www.quakelive.com/legals/privacy_policy",
     "Terms of Use": "http://www.quakelive.com/legals/terms_of_use"
   },
-  "tosdr/review/quora.com": {
+  "quora.com": {
     "Privacy Policy": "https://www.quora.com/about/privacy",
     "Terms of Service": "https://www.quora.com/about/tos"
   },
-  "tosdr/review/reddit.com": {
+  "reddit.com": {
     "Privacy Policy": "http://www.reddit.com/help/privacypolicy",
     "Terms of Service": "http://www.reddit.com/help/useragreement"
   },
-  "tosdr/review/reputation.com": {
+  "reputation.com": {
     "Privacy Policy": "http://www.reputation.com/privacy-policy",
     "Terms of Use": "http://www.reputation.com/user-agreement"
   },
-  "tosdr/review/researchgate.net": {
+  "researchgate.net": {
     "Intellectual Property Policy": "https://www.researchgate.net/ip-policy",
     "Privacy Policy": "https://www.researchgate.net/privacy-policy",
     "Terms of Service": "https://www.researchgate.net/terms-of-service"
   },
-  "tosdr/review/seenthis.net": {
+  "seenthis.net": {
     "Intellectual Property": "http://seenthis.net/fran%C3%A7ais/mentions/article/propri%C3%A9t%C3%A9-intellectuelle"
   },
-  "tosdr/review/signal.org": {
+  "signal.org": {
     "Signal Terms & Privacy Policy": "https://signal.org/legal/"
   },
-  "tosdr/review/softpedia.com": {
+  "softpedia.com": {
     "Privacy Policy": "http://www.softpedia.com/user/privacy.shtml"
   },
-  "tosdr/review/soundcloud.com": {
+  "soundcloud.com": {
     "Community Guidelines": "https://soundcloud.com/community-guidelines",
     "Privacy Policy": "https://soundcloud.com/pages/privacy",
     "Terms of Service": "https://soundcloud.com/terms-of-use"
   },
-  "tosdr/review/spotify.com": {
+  "spotify.com": {
     "Privacy Policy": "https://www.spotify.com/us/legal/privacy-policy/",
     "Terms and Conditions of Use": "https://www.spotify.com/us/legal/end-user-agreement/",
     "Terms and Conditions (Mobile)": "https://www.spotify.com/se/legal/mobile-terms-and-conditions/",
     "Terms and Conditions (Premium)": "https://www.spotify.com/se/legal/premium-code-terms-and-conditions/",
     "Terms and Conditions (Unlimited)": "https://www.spotify.com/se/legal/unlimited-code-terms-and-conditions/"
   },
-  "tosdr/review/steampowered.com": {
+  "steampowered.com": {
     "Legal Info": "https://store.steampowered.com/legal/",
     "Privacy Policy Agreement": "https://www.cbsinteractive.com/legal/cbsi/privacy-policy",
     "Steam Refunds": "https://store.steampowered.com/steam_refunds/",
     "Steam Subscriber Agreement": "https://store.steampowered.com/subscriber_agreement/"
   },
-  "tosdr/review/travelzoo.com": {
+  "travelzoo.com": {
     "Privacy Policy": "http://www.travelzoo.com/privacy/"
   },
-  "tosdr/review/trello.com": {
+  "trello.com": {
     "DMCA": "https://trello.com/legal/dmca",
     "Operations and Security": "https://trello.com/legal/security",
     "Privacy Policy": "https://trello.com/privacy",
     "Terms of Service": "https://trello.com/legal"
   },
-  "tosdr/review/tumblr.com": {
+  "tumblr.com": {
     "Privacy Policy": "https://www.tumblr.com/privacy/en",
     "Terms of Service": "https://www.tumblr.com/policy/en/terms-of-service"
   },
-  "tosdr/review/twitter.com": {
+  "twitter.com": {
     "Privacy Policy": "https://twitter.com/en/privacy",
     "Terms of Service": "https://twitter.com/en/tos"
   },
-  "tosdr/review/vimeo.com": {
+  "vimeo.com": {
     "Privacy Policy": "http://vimeo.com/privacy",
     "Terms of Service": "http://vimeo.com/terms"
   },
-  "tosdr/review/w3schools.com": {
+  "w3schools.com": {
     "Cookies and Privacy Policy - About Privacy": "https://www.w3schools.com/about/about_privacy.asp",
     "Terms of Use - About Copyright": "https://www.w3schools.com/about/about_copyright.asp"
   },
-  "tosdr/review/weebly.com": {
+  "weebly.com": {
     "Privacy Policy": "http://www.weebly.com/privacy/",
     "Terms of Service": "http://www.weebly.com/terms-of-service/"
   },
-  "tosdr/review/whatsapp.com": {
+  "whatsapp.com": {
     "Terms of Service and Privacy": "https://www.whatsapp.com/legal?eea=0",
     "Terms of Service and Privacy (EU)": "https://www.whatsapp.com/legal?eea=1"
   },
-  "tosdr/review/wikia.com": {
+  "wikia.com": {
     "Privacy Policy": "http://www.wikia.com/Privacy_Policy"
   },
-  "tosdr/review/wikihow.com": {
+  "wikihow.com": {
     "Privacy Policy": "http://www.wikihow.com/wikiHow:Terms-of-Use"
   },
-  "tosdr/review/wikipedia.org": {
+  "wikipedia.org": {
     "Privacy Policy": "https://wikimediafoundation.org/wiki/Privacy_policy",
     "Terms of Use": "https://wikimediafoundation.org/wiki/Terms_of_Use",
     "Terms of use": "https://wikimediafoundation.org/wiki/Terms_of_use"
   },
-  "tosdr/review/wordpress.com": {
+  "wordpress.com": {
     "Privacy Policy": "http://automattic.com/privacy/",
     "Terms of Service": "http://en.wordpress.com/tos/"
   },
-  "tosdr/review/xing.com": {
+  "xing.com": {
     "Privacy Policy": "http://www.xing.com/privacy",
     "Terms and Conditions": "http://www.xing.com/terms"
   },
-  "tosdr/review/yahoo.com": {
+  "yahoo.com": {
     "Privacy Policy": "https://policies.oath.com/us/en/oath/privacy/index.html",
     "Terms of Service": "https://policies.oath.com/us/en/oath/terms/otos/index.html",
     "Community Guidelines": "http://docs.yahoo.com/info/guidelines/community.html",
     "Yahoo Terms of Service": "https://policies.yahoo.com/us/en/yahoo/terms/utos/index.htm"
   },
-  "tosdr/review/youtube.com": {
+  "youtube.com": {
     "Community Guidelines": "https://www.youtube.com/yt/about/policies/#community-guidelines",
     "Privacy Policy": "https://policies.google.com/privacy",
     "Terms of Service": "https://www.youtube.com/t/terms",
