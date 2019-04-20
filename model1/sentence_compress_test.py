@@ -27,11 +27,12 @@ def test_sentence_compress():
 	for i, s in enumerate(compressed_prediction):
 		score = bleu_score.sentence_bleu([compressed[i]], s)
 		scores.append(score)
-	return compressed, compressed_prediction, scores
+	return original, compressed, compressed_prediction, scores
 
 if __name__ == '__main__':
-	compressed, compressed_prediction, scores = test_sentence_compress()
+	original, compressed, compressed_prediction, scores = test_sentence_compress()
 	for i, s in enumerate(compressed_prediction):
+		print(original[i].sentence)
 		print(compressed[i])
 		print(s)
 		print(scores[i], '\n')
@@ -42,3 +43,37 @@ if __name__ == '__main__':
 # Serge Ibaka has been granted Spanish citizenship and will play in EuroBasket.
 # Serge Ibaka has been granted Spanish citizenship and will play for the country in EuroBasket this summer, the event.
 # 0.6526530205320725 
+
+
+# ORIGINAL
+# (ROOT
+#   (S
+#     (NP
+#       (NP (DT The) (NN transfer))
+#       (PP (IN of) (NP (NNP Virtual) (NNS Items))))
+#     (VP
+#       (VBZ is)
+#       (VP
+#         (VBN prohibited)
+#         (PP
+#           (IN except)
+#           (SBAR
+#             (WHADVP (WRB where))
+#             (S
+#               (NP (NNP expressly))
+#               (VP
+#                 (VBD authorized)
+#                 (PP (IN in) (NP (DT the) (NNPS Services)))
+#                 (, ,)
+#                 (ADJP (RB as) (JJ applicable))))))))
+#     (. .)))
+# The transfer of Virtual Items is prohibited except where expressly authorized in the Services, as applicable.
+# TRIMMED
+# (ROOT
+#   (S
+#     (NP
+#       (NP (DT The) (NN transfer))
+#       (PP (IN of) (NP (NNP Virtual) (NNS Items))))
+#     (VP (VBZ is) (VP (VBN prohibited) None))
+#     (. .)))
+# The transfer of Virtual Items is prohibited.

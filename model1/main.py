@@ -41,9 +41,9 @@ def main():
 	model = load(fp)
 	fp.close()
 
-	# compressor = SentenceCompress()
-	# compressor.syntax_parse(sentences)
-
+	# BTW this is slow.
+	model.compress_sentences(beta=args.compression_level)
+	
 	model.rank_sentences()
 	model.rake_sentences()
 	for sentence in model.sentences:
@@ -128,13 +128,20 @@ def main():
 
 	# score = sentence_bleu(bleu_format_key, bleu_format_sys, weights=(0, 0, 0, 1))
 	# print(score)
+	# percent = .02
+	percent = args.percent
+	short_summary = model.shorten(percent)
+	print(f"{percent*100}% of the Summary")
+	for sentence in short_summary:
+		print(sentence.sentence)
+	with open('output.txt', 'w') as f:
+		f.write('\n'.join([s.sentence for s in short_summary]))
 
 	# html_output = highlight_phrases(short_summary)
 	html_output = highlight_phrases(model.sentences)
 
 	# f_name = args.input_tos_file.replace(".txt", ".html")
 	f_name = "output.html"
-	# print(f_name)
 	fd = open(f_name, "w")
 	fd.write(html_output)
 

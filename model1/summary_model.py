@@ -2,6 +2,7 @@ from highlight import highlight
 from lexrank import Summarizer
 from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
+from preprocess import preprocess
 import parse
 import re
 
@@ -38,12 +39,10 @@ class SummaryModel(object):
     def common_words(self, top_n):
         return self.word_bank.top(top_n)
 
-    # maybe compress_sentences should be an option when initializing summary model?
-    def compress_sentences(self):
-        compressor = SentenceCompress()
+    def compress_sentences(self, alpha=50, beta=500):
+        compressor = SentenceCompress(alpha, beta)
         compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
         sentences = compressor.compress()
-        print(sentences)
         self.sentences = []
         for sentence in sentences:
             if len(sentence) > 0:
@@ -99,3 +98,7 @@ def load(fp):
     data = fp.read()
     sent_tokenized = parse.sentence_tokenize_tos(data)
     return SummaryModel(sent_tokenized)
+
+    # to use processed html files:
+    # tos = preprocess('../data/url2html_output.json')
+    # return SummaryModel(tos['rovio'])

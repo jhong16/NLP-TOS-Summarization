@@ -7,6 +7,7 @@ import argparse
 from sklearn.linear_model import Perceptron
 from sklearn.svm import LinearSVC
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import cross_val_score
 
 def normalize2(data_points, max_min):
     num_of_features = len(data_points[0])
@@ -53,14 +54,18 @@ def main(training_files, to_summarize, output_file):
         else:
             y = np.append(y, y2, axis=0)
 
-    #clf = Perceptron(tol=-100000, random_state = 0, max_iter = 50000, penalty='l2')
-    #clf = LinearSVC()
+    # clf = Perceptron(tol=-100000, random_state = 0, max_iter = 50000, penalty='l2')
+    # clf = LinearSVC()
     clf = KNeighborsClassifier(n_neighbors=3)
 
     max_min = normalize(X)
 
     clf.fit(X,y)
     print(clf.score(X,y))
+
+    # k-FOLD cross validation error
+    k_scores = cross_val_score(clf, X, y, cv = 3)
+    print("3-fold CV:\nAccuracy: %0.2f (+/0 %0.2f)" % (k_scores.mean(), k_scores.std() * 2))
 
     with open(to_summarize, "r") as tsf:
         tf_json_stuff = json.load(tsf)
