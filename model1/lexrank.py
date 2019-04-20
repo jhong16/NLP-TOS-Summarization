@@ -73,11 +73,13 @@ class Summarizer(object):
 		return term_freq
 
 	# for this purpose, is idf = log(total # of sentences / # of sentences containing word?)
-	def compute_idf(self):
-		N = len(self.sentences)
+	def compute_idf(self, sentences=None):
+		if sentences is None:
+			sentences = self.sentences
+		N = len(sentences)
 		inverse_doc_freq = dict()
 
-		for s in self.sentences:
+		for s in sentences:
 			for word in s:
 				if word not in self.stop_words:
 					if word in inverse_doc_freq:

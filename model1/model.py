@@ -35,12 +35,17 @@ class WordBank(object):
         for sentence in sentences:
             words = sentence.word_list()
             sent_matrix.append(words)
+        self.word_dict = dict()
         self.tf = Summarizer().compute_tf(sent_matrix)
+        self.idf = Summarizer().compute_idf(sent_matrix)
+        for word, tf in self.tf.items():
+            idf = self.idf[word]
+            self.word_dict[word] = Word(word, tf=tf, idf=idf)
 
     def __repr__(self):
         s = ""
-        for word, tf in sorted(self.tf.items(), key=lambda x:x[1], reverse=True):
-            s += f"{word}: {tf}\n"
+        for word, value in self.word_dict.items():
+            s += f"{word}: {value}\n"
         return s
 
     def top(self, n):
@@ -50,5 +55,12 @@ class WordBank(object):
         return top_dict
 
 class Word(object):
-    def __init__(self, token):
+    def __init__(self, token, tf=None, idf=None):
         self.token = token
+        self.tf = tf
+        self.idf = idf
+
+    def __repr__(self):
+        s = ""
+        s += f"tf: {str(self.tf)}, idf: {str(self.idf)}"
+        return s

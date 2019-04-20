@@ -91,7 +91,6 @@ class SummaryModel(object):
         for sentence in self.sentences:
             sentence.rake_sentence()
 
-
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model
     """
