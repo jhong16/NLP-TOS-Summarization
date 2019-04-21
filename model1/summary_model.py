@@ -39,8 +39,8 @@ class SummaryModel(object):
     def common_words(self, top_n):
         return self.word_bank.top(top_n)
 
-    def compress_sentences(self, alpha=50, beta=500):
-        compressor = SentenceCompress(alpha, beta)
+    def compress_sentences(self, alpha=50, beta=500, path_to_jar=None, path_to_models_jar=None):
+        compressor = SentenceCompress(alpha=alpha, beta=beta, path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
         compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
         sentences = compressor.compress()
         self.sentences = []

@@ -5,10 +5,10 @@ from math import sqrt
 import string, re
 
 class SentenceCompress:
-	def __init__(self, omega=0.001, alpha=20, beta=100):
+	def __init__(self, omega=0.001, alpha=20, beta=100, path_to_jar=None, path_to_models_jar= None):
 		""" Initialize syntactic parser and parameters for word significance and
 			desired sentence length."""
-		self.parser = StanfordParser()
+		self.parser = StanfordParser(path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
 		self.omega = omega # Proper noun importance
 		self.alpha = alpha # min sentence length in characters
 		self.beta = beta # max sentence length in characters
