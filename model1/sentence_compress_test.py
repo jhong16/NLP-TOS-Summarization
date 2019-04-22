@@ -1,6 +1,6 @@
 from nltk.translate import bleu_score
 
-from model import Sentence
+from model import Sentence, WordBank
 from sentence_compress import SentenceCompress
 import parse
 
@@ -12,7 +12,7 @@ def get_test_data(filename):
 			sentence = line.strip()
 			if i % 2 == 0:
 				words = parse.word_tokenize_sent(sentence)
-				original.append(Sentence(sentence, words))
+				original.append(Sentence(sentence, words, i))
 			else:
 				compressed.append(sentence)
 	return original, compressed
@@ -20,7 +20,8 @@ def get_test_data(filename):
 def test_sentence_compress():
 	test_data_filename = '../data/compress_data.txt'
 	original, compressed = get_test_data(test_data_filename)
-	compressor = SentenceCompress()
+	word_bank = WordBank(original)
+	compressor = SentenceCompress(word_bank=word_bank)
 	compressor.syntax_parse(original[:30]) # for testing I'm generally making this smaller
 	compressed_prediction = compressor.compress()
 	scores = []

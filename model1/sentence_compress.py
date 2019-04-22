@@ -5,7 +5,7 @@ from math import sqrt
 import string, re
 
 class SentenceCompress:
-	def __init__(self, omega=0.001, alpha=20, beta=100, path_to_jar=None, path_to_models_jar= None):
+	def __init__(self, omega=0.001, alpha=20, beta=100, path_to_jar=None, path_to_models_jar= None, word_bank=None):
 		""" Initialize syntactic parser and parameters for word significance and
 			desired sentence length."""
 		self.parser = StanfordParser(path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
@@ -13,6 +13,7 @@ class SentenceCompress:
 		self.alpha = alpha # min sentence length in characters
 		self.beta = beta # max sentence length in characters
 		self.parsed_sentences = None
+		self.word_bank = word_bank
 
 	def syntax_parse(self, sentences):
 		""" Take list of Sentence objects and get syntactic parse trees. """
@@ -24,9 +25,9 @@ class SentenceCompress:
 		for list_iter in self.parsed_sentences:
 			for t in list_iter:
 				original = self.tree_to_sentence(t)
-				print('ORIGINAL')
-				print(t)
-				print(original)
+				# print('ORIGINAL')
+				# print(t)
+				# print(original)
 				min_len = self.min_length(original)
 				max_len = self.max_length(original)
 				if len(original) >= min_len:
@@ -34,18 +35,20 @@ class SentenceCompress:
 					t = self.set_1(t, max_len, min_len)
 					s = self.tree_to_sentence(t) # could check if this is above min and desired max length
 					compressed_sentences.append(s)
-					print('TRIMMED')
-					print(t)
-					print(s)
+					# print('TRIMMED')
+					# print(t)
+					# print(s)
 		return compressed_sentences
 
 	# input might be Ji hann's word class, which might include POS tag, named entity, that sort of thing 
 	# this should be a word object
 	def word_significance(self, w): # I_j(w_i)
-		# if True: # for now. should be if common noun
-		# 	return w.tf * w.idf # tf_ij x idf_i if w_i is verb or common noun
-		# elif False: # for now. should if proper noun
-		# 	return w.tf * w.idf + self.omega # tf_ij x idf_i + omega if w_i is proper noun
+		if w in self.word_bank.word_dict:
+			word = self.word_bank.word_dict[w]
+			if w[0].islower(): # for now. should be if common noun
+				return word.tf * word.idf # tf_ij x idf_i if w_i is verb or common noun
+			elif w[0].isupper(): # for now. should if proper noun
+				return word.tf * word.idf + self.omega # tf_ij x idf_i + omega if w_i is proper noun
 		return 0 # 0 otherwise
 
 	def information_density_measurement(self):
@@ -74,8 +77,10 @@ class SentenceCompress:
 				# assign importance to clause, based on returned importance and importance of clause types
 				clause_sig += sig
 				# remove adverbs, parenthetical statements, and fragments
-				if node.label() in phrases: # should check that adverb is not negative
+				if clause_sig < 0.01 and node.label() in phrases: # should check that adverb is not negative
 					tree[index] = None
+				elif clause_sig >= 0.01 and node.label() in phrases:
+					print("not getting rid of: ", self.tree_to_sentence(node))
 			else: # word string
 				# return word_significance
 				word_sig = self.word_significance(node) # I need to have a fast way of looking up word object
@@ -91,7 +96,6 @@ class SentenceCompress:
 	def set_1_find_xp_levels(self, tree, decl_clause, level, found_xp):
 		""" Get number of levels of outermost XP pattern.
 			Pattern is [XP [XP ...] ... ] where XP is NP, VP, or S. """
-		clause_sig = 0
 		max_levels = level
 		for index, node in enumerate(tree):
 			if type(node) == Tree:
@@ -178,6 +182,8 @@ class SentenceCompress:
 			return s
 		if s[0] in string.punctuation:
 			s = s.lstrip(string.punctuation)
+		if len(s) == 0:
+			return s
 		if s[0].islower():
 			s = s[0].upper() + s[1:]
 		if s[-1] not in string.punctuation:

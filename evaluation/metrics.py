@@ -26,7 +26,12 @@ def BLEU_corpus_score(expected_corpus, actual_corpus):
 # def ROUGE_sentence_score(expected: str, actual: str) -> float:
 def ROUGE_sentence_score(expected, actual):
   # TODO: fix this so that it actually gives results
-  evaluator = rouge.Rouge()
+  evaluator = rouge.Rouge(metrics=['rouge-n', 'rouge-l'],
+      max_n = 4,
+      limit_length = True,
+      length_limit=100,
+      length_limit_type='words',
+      apply_avg="Avg")
   return evaluator.get_scores([actual], [expected])
   
 # def ROUGE_corpus_score(expected_corpus: List, actual_corpus: List) -> float:

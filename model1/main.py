@@ -6,25 +6,25 @@ from highlight import highlight_phrases
 from lexrank import Summarizer
 from summary_model import load
 from parse import parse_tos
-# from sentence_compress import SentenceCompress
+from sentence_compress import SentenceCompress
 
 from nltk.translate.bleu_score import corpus_bleu, sentence_bleu
 
 
 def pattern(seq):
-        storage = {}
-        for length in range(1,int(len(seq)/2+1)):
-                valid_strings = {}
-                for start in range(0,int(len(seq)-length+1)):
-                        valid_strings[start] = tuple(seq[start:start+length])
-                candidates = set(valid_strings.values())
-                if len(candidates) != len(valid_strings.values()):
-                        print("Pattern found for " + str(length))
-                        storage = valid_strings
-                else:
-                        print("No pattern found for " + str(length))
-                        return set(filter(lambda x: storage.values().count(x) > 1, storage.values()))
-        return storage
+    storage = {}
+    for length in range(1,int(len(seq)/2+1)):
+            valid_strings = {}
+            for start in range(0,int(len(seq)-length+1)):
+                    valid_strings[start] = tuple(seq[start:start+length])
+            candidates = set(valid_strings.values())
+            if len(candidates) != len(valid_strings.values()):
+                    print("Pattern found for " + str(length))
+                    storage = valid_strings
+            else:
+                    print("No pattern found for " + str(length))
+                    return set(filter(lambda x: storage.values().count(x) > 1, storage.values()))
+    return storage
 
 def main():
 	parser = argparse.ArgumentParser(description="First Model of Sentence Summarization")
@@ -34,6 +34,7 @@ def main():
 	parser.add_argument("--compression_level", type=int, default=500, help="Approximate desired maximum length of sentences in characters.")
 	parser.add_argument("--path_to_jar", type=str, default=None, help="The parser jar file")
 	parser.add_argument("--path_to_models_jar", type=str, default=None, help="The parser model jar file")
+	parser.add_argument("--output_file", type=str, default="output.txt", help="Name of output file")
 	args = parser.parse_args()
 	filename = args.input_tos_file
 
@@ -61,6 +62,18 @@ def main():
 	for sentence in short_summary:
 		print(sentence.sentence)
 	with open('output.txt', 'w') as f:
+		f.write('\n'.join([s.sentence for s in short_summary]))
+
+	# print(model.common_words(10))
+
+	compliance_summary = model.keyword_summary("must")
+
+	percent = args.percent
+	short_summary = model.shorten(percent)
+	print(f"{percent*100}% of the Summary")
+	for sentence in short_summary:
+		print(sentence.sentence)
+	with open(args.output_file, 'w') as f:
 		f.write('\n'.join([s.sentence for s in short_summary]))
 
 	html_output = highlight_phrases(short_summary)

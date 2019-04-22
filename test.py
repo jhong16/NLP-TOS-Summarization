@@ -25,7 +25,7 @@ def main():
 	model_summary_file = args.model_summary_file
 
 	bleu_score, rouge_score = test(ground_truth_file, model_summary_file)
-	print(bleu_score)
+	print("BLEU score: {}\nRouge-1 f-score: {}".format(bleu_score, rouge_score['rouge-1']['f']))
 
 if __name__ == '__main__':
 	sys.exit(main())
