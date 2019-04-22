@@ -1,7 +1,20 @@
+import os
+import json
 from argparse import ArgumentParser
 
+def output_path(output_dir, file_id):
+    return '{}/{:06d}.txt'.format(output_dir, file_id)
+
 def main(input_file, output_dir):
-    pass    
+    with open(input_file, 'r') as fp:
+        input_data = json.load(fp)
+    
+    file_id = 0
+    for company in input_data:
+        for doc in input_data[company]:
+            with open(output_path(output_dir, file_id), "w") as fp:
+                fp.write(input_data[company][doc])
+            file_id += 1
 
 
 if __name__ == "__main__":
