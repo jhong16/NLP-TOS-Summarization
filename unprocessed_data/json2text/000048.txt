@@ -38,7 +38,7 @@ Why we collect this information
 We collect this information to better understand how our website visitors use GitHub, and to monitor and protect the security of the website.
 Information from users with accounts
 If you create an account, we require some basic information at the time of account creation. You will create your own user name and password, and we will ask you for a valid email address. You also have the option to give us more information if you want to, and this may include "User Personal Information."
-"User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify him or her. Information such as a user name and password, an email address, a real name, and a photograph are examples of “User Personal Information.” User Personal Information includes Personal Data as defined in the General Data Protection Regulation.
+"User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify him or her. Information such as a user name and password, an email address, a real name, and a photograph are examples of "User Personal Information." User Personal Information includes Personal Data as defined in the General Data Protection Regulation.
 User Personal Information does not include aggregated, non-personally identifying information. We may use aggregated, non-personally identifying information to operate, improve, and optimize our website and service.
 Why we collect this information
 ---We need your User Personal Information to create your account, and to provide the services you request, including to provide the GitHub service, the Marketplace service, or to respond to support requests.

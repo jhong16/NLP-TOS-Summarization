@@ -77,7 +77,7 @@ Eligibility:
     data) . You may only use the Services if you can form a binding contract
     with Tumblr and are not legally prohibited from using the Services.
     You have to be the Minimum Age to use Tumblr. We're serious: it's a hard
-    rule. “But I’m, like, almost old enough!” you plead. Nope, sorry. If
+    rule. "But I’m, like, almost old enough!" you plead. Nope, sorry. If
     you're not old enough, don't use Tumblr. Ask your parents for a
     Playstation 4, or try books.
 Service Changes and Limitations:
@@ -350,8 +350,8 @@ Termination and Deletion:
     You further release, to the fullest extent permitted by law, Tumblr and its
     employees, agents, consultants, directors, shareholders, any other person
     or entity that directly or indirectly controls, is under common control
-    with, or is directly or indirectly controlled by, Tumblr (the “Tumblr
-    Affiliates”) from responsibility, liability, claims, demands, and/or
+    with, or is directly or indirectly controlled by, Tumblr (the "Tumblr
+    Affiliates") from responsibility, liability, claims, demands, and/or
     damages (actual and consequential) of every kind and nature, known and
     unknown (including but not limited to claims of negligence), arising out of
     or related to the following:

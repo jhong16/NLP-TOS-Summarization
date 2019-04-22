@@ -86,7 +86,7 @@ We do not sell or rent your Personal Information, nor do we give it to others to
 After all, it's people like you, the champions of free knowledge, who make it possible for the Wikimedia Sites to not only exist, but also grow and thrive.
 Definitions
 Back to top 
-We recognize that only a minority of you are familiar with technical terms like “tracking pixels” and “cookies” used in the Privacy Policy. Whether you are brand new to privacy terminology or you are an expert who just wants a refresher, you might find our Glossary of Key Terms helpful.
+We recognize that only a minority of you are familiar with technical terms like "tracking pixels" and "cookies" used in the Privacy Policy. Whether you are brand new to privacy terminology or you are an expert who just wants a refresher, you might find our Glossary of Key Terms helpful.
 Because everyone (not just lawyers) should be able to easily understand how and why their information is collected and used, we use common language instead of more formal terms throughout this Policy. To help ensure your understanding of some particular key terms, here is a table of translations:
 When we say...
 ... we mean:
@@ -101,7 +101,7 @@ This document, entitled the "Wikimedia Foundation Privacy Policy".
 "contributions"
 Content you add or changes you make to any Wikimedia Sites.
 "personal information"
-Information you provide us or information we collect from you that could be used to personally identify you. To be clear, while we do not necessarily collect all of the following types of information, we consider at least the following to be “personal information” if it is otherwise nonpublic and can be used to identify you:
+Information you provide us or information we collect from you that could be used to personally identify you. To be clear, while we do not necessarily collect all of the following types of information, we consider at least the following to be "personal information" if it is otherwise nonpublic and can be used to identify you:
 (a) your real name, address, phone number, email address, password, identification number on government-issued ID, IP address, user-agent information, credit card number;
 (b) when associated with one of the items in subsection (a), any sensitive data such as date of birth, gender, sexual orientation, racial or ethnic origins, marital or familial status, medical conditions or disabilities, political affiliation, and religion; and
 (c) any of the items in subsections (a) or (b) when associated with your user account.
@@ -135,7 +135,7 @@ emailing other users through the Wikimedia Sites (for example, by using the "Ema
 chatting on IRC (such as on the #wikipedia channel).
 Third parties
 This Privacy Policy only covers the way the Wikimedia Foundation collects, uses and discloses Personal Information and does not address the practices of third parties. For example, this Privacy Policy does not address the practices of:
----Websites run by other organizations, like websites linked to from the “References” sections of Wikipedia, or run by Wikimedia chapters or other movement organizations. These organizations may receive information from you if you visit their websites after using one of the Wikimedia Sites. They are governed by their own privacy policies.
+---Websites run by other organizations, like websites linked to from the "References" sections of Wikipedia, or run by Wikimedia chapters or other movement organizations. These organizations may receive information from you if you visit their websites after using one of the Wikimedia Sites. They are governed by their own privacy policies.
 ---Mobile applications provided by other organizations or individuals. These organizations or individuals may receive information from you if you use those applications to access the Wikimedia Sites or Wikimedia Site content. They are governed by their own privacy policies.
 Sometimes, volunteers may place a data-collecting tool, such as a script, gadget, tracking pixel, or share button, on a Wikimedia Site without our knowledge. This Policy does not cover how third parties handle the information they receive as a result of such a tool. If you come across such a third-party tool, and you believe it violates this Policy, you can remove the tool yourself, or report it to privacy[at]wikimedia.org so we can investigate.
 Where community policies govern information, such as the CheckUser policy, the relevant community may add to the rules and obligations set out in this Policy. However, they are not permitted to create new exceptions or otherwise reduce the protections offered by this Policy.
@@ -283,7 +283,7 @@ The Wikimedia Foundation is a non-profit organization based in San Francisco, Ca
 Back to top 
 We do not allow tracking by third-party websites you have not visited.
 We do not share your data with third parties for marketing purposes.
-We are strongly committed to not sharing nonpublic information and Personal Information with third parties. In particular, we do not allow tracking by third-party websites you have not visited (including analytics services, advertising networks, and social platforms), nor do we share your Personal Information with any third parties for marketing purposes. Under this Policy, we may share your information only under particular situations, which you can learn more about in the “When May We Share Your Information” section of this Privacy Policy.
+We are strongly committed to not sharing nonpublic information and Personal Information with third parties. In particular, we do not allow tracking by third-party websites you have not visited (including analytics services, advertising networks, and social platforms), nor do we share your Personal Information with any third parties for marketing purposes. Under this Policy, we may share your information only under particular situations, which you can learn more about in the "When May We Share Your Information" section of this Privacy Policy.
 Because we protect all users in this manner, we do not change our behavior in response to a web browser's "do not track" signal.
 For more information regarding Do Not Track signals and how we handle them, please visit our FAQ.
 Back to top 
