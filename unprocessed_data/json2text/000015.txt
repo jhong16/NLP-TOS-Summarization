@@ -93,7 +93,7 @@ If you’re outside these areas you need to check if your country has its own TV
 Find out more about when you need a TV Licence.
 Back to top
 A few rules to stop you (and us) getting in trouble.
-These apply to our services and content. One exception is content that’s made to be shared – “shareables” for short – which has some different, more relaxed rules. The rules about shareables are here.
+These apply to our services and content. One exception is content that’s made to be shared – "shareables" for short – which has some different, more relaxed rules. The rules about shareables are here.
 a. Don’t mess with our services
 What do we mean by that? This sort of thing:
 ---Hacking them
@@ -231,7 +231,7 @@ This part is about when you create your own content by:
 ---Uploading something of yours to one of our services – like uploading to comment boards and forums
 ---Uploading your clip or photo of a breaking story to BBC News
 ---Using a service (like the Doctor Who Game Maker) to make something and then uploading it to the BBC.
-We call these somethings “creations”.
+We call these somethings "creations".
 Things you enter into competitions (like drawings) don’t count as creations for these terms. Competitions have their own terms.
 Back to top
 a. There might be tinkering
@@ -250,7 +250,7 @@ We usually show your name alongside your creation. We’ll try to remove it if y
 g. Moral rights
 When you upload a creation, you give up your moral rights to it. That means we can:
 ---Use your creation without identifying you as the creator
----Edit or change your creation and you won’t be able to say we’ve treated it in a “derogatory” way.
+---Edit or change your creation and you won’t be able to say we’ve treated it in a "derogatory" way.
 Read more about moral rights here. And here’s a shorter explanation of moral rights.
 h. We might contact you
 To check if you’ve got permission to use any music, images, clips or text in your creation. Or just for administrative purposes.
@@ -335,7 +335,7 @@ We take great care to make our content and services the best they can be. So if 
 a. If our services or content damage your device or anything on it. Should this happen, you might be able to ask for compensation under consumer protection law.
 Compensation isn’t guaranteed, though. Be sure to get legal advice.
 b. For certain unlikely events. If our negligence causes death or injury, for example.
-c. If you’re an individual “consumer” and it would be unfair for us to not be held responsible.
+c. If you’re an individual "consumer" and it would be unfair for us to not be held responsible.
 Otherwise, we’re not liable for anything that happens if:
 ---You rely on advice, data, commentary, opinions or any other content
 ---There are errors, omissions, interruptions, delays, bugs or viruses

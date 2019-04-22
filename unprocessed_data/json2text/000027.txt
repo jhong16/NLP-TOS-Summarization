@@ -6,11 +6,11 @@ Effective Date: May 25, 2018
 Please read our Privacy Policy carefully to get a clear understanding of how we collect, use, disclose,
               protect and otherwise handle information about you. By using Couchsurfing services, you consent to the
               collection and use of your data as described in this Privacy Policy.
----the information we, Couchsurfing International, Inc. (“Couchsurfing”) collect about you,
+---the information we, Couchsurfing International, Inc. ("Couchsurfing") collect about you,
 ---how we use and share that information, and
 ---the privacy choices available to you.
 This Privacy Policy applies to information we collect when you use our websites, mobile applications and
-              other online products and services (collectively, the “Services”), or when you otherwise interact with us.
+              other online products and services (collectively, the "Services"), or when you otherwise interact with us.
             
 From time to time, we may change the provisions of this Privacy Policy. We encourage you to review the
               Privacy Policy regularly to stay informed about our information practices and the ways you can help
@@ -40,11 +40,11 @@ When you access or use our Services, we may also automatically collect informati
                 your hardware model, operating system and version, unique device identifiers, mobile network information
                 and information about the device’s interaction with our Services.
 ---Log Information: We collect log information about how you access or use our Services, including your
-                access times, browser type and language, Internet Service Provider and Internet Protocol (“IP”) address.
+                access times, browser type and language, Internet Service Provider and Internet Protocol ("IP") address.
               
 ---Information Collected by Cookies and other Tracking Technologies: We may automatically collect
-                information using cookies, web beacons (also known as “tracking gifs,” “pixel tags” and “tracking
-                pixels”) and other tracking technologies to, among other things, improve our Services and your
+                information using cookies, web beacons (also known as "tracking gifs," "pixel tags" and "tracking
+                pixels") and other tracking technologies to, among other things, improve our Services and your
                 experience, monitor user activity, count visits, understand usage and campaign effectiveness, and tell
                 if an email has been opened and acted upon.
 We may also obtain information from other sources and combine that with information we collect through
