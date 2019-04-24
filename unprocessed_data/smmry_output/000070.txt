@@ -1,0 +1,14 @@
+You agree to use the Services in accordance with the use levels by which we measure, price and offer our Services as posted on our websites, your Order, or the Service Descriptions.
+
+ " Services" means our software-as-a-service offerings and audio services modify, prepare derivative works of, or reverse engineer, our Services; knowingly or negligently use our Services in a way that abuses or disrupts our networks, user accounts, or the Services; transmit through the Services any harassing, indecent, obscene, fraudulent, or unlawful material; market, or resell the Services to any third party; use the Services in violation of applicable laws, or regulations; use the Services to send unauthorized advertising, or spam; harvest, collect, or gather user data without their consent; or transmit through the Services any material that may infringe the intellectual property, privacy, or other rights of third parties.
+
+ You are responsible for all applicable sales, services, value-added, goods and services, withholding, tariffs, Universal Services Fund fees and similar taxes imposed by any government entity or collecting agency based on the Services, except those Taxes based on our net income, or Taxes for which you have provided an exemption certificate.
+
+ Otherwise, you will immediately discontinue all use of the terminated Services, except that upon request, we will provide you with limited access to the Services for a period not to exceed 30 days, solely to enable you to retrieve your Content from the Services.
+
+ If you are using the Services on a trial or promotional basis, your Trial Period and access to the Services will terminate at the end of the Trial Period stated in your Order, or if no date is specified, 30 days after your initial access to the Services, or upon your conversion to a subscription.
+
+ If we reasonably determine that the security of our Services or infrastructure may be compromised due to hacking attempts, denial of service attacks, or other malicious activities, we may temporarily suspend the Services and we will take action to promptly resolve any security issues.
+
+ The Agreement, including your Order and related invoices for Services ordered, these Terms, Service Descriptions, and a DPA if applicable, sets forth the entire agreement between us relating to the Services and supersedes all prior and contemporaneous oral and written agreements, except as otherwise permitted.
+

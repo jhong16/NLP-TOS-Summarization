@@ -1,0 +1,14 @@
+User content can also be found in Trello backups, stored in AWS EC2, S3, Glacier, and GCS. We currently do not offer customers the option of hosting Trello on a private server, or to otherwise use Trello on a separate infrastructure.
+
+ The Trello customer support team will only receive such access to the account if it is granted by the user, either by selecting the "Give Trello support staff temporary access to your account" option when submitting a help request, or by clicking a link sent to the user's email by the Trello Support team.
+
+ Upon termination of a Trello Business Class or Enterprise contract, if requested by the Trello customer's administrator, the user content that is stored on the terminated team's boards, lists and cards will be completely removed from the live Trello production database.
+
+ Upon deletion of an individual user account, Trello does not automatically delete the content that was created by individual users in Trello.
+
+ Trello validates files for well-formedness and the like we have explicitly designed Trello to support any type of content users may choose to store within Trello.
+
+ Trello board data is available for export by board members in JSON format via the Trello REST API. File attachments can be individually retrieved directly from Amazon S3 using the file's unique hyperlink.
+
+ Trello had over 99.99% uptime in 2017 and 2018, and any downtime is documented at Trello's status page.5 A Trello problem impacting a Trello Enterprise customer will be assigned a Severity Level and handled according to the resolutions in Table 1.
+
