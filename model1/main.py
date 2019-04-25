@@ -50,11 +50,17 @@ def main():
 	model.compress_sentences(beta=args.compression_level, path_to_jar=args.path_to_jar, path_to_models_jar=args.path_to_models_jar)
 	
 	model.rank_sentences()
-	model.rake_sentences()
+	model.rake_sentences(maxWords=2, minFrequency=1)
+	top_sent = model.top_keyword_sent(7)
+	for sentence in top_sent:
+		print(sentence.sentence)
+
 	# Print the 10 most common words
 	# print(model.common_words(10))
 
-	compliance_summary = model.keyword_summary("must")
+	compliance_summary = model.keyword_summary("google")
+	for sentence in compliance_summary:
+		print(sentence.sentence)
 
 	percent = args.percent
 	short_summary = model.shorten(percent)
@@ -64,8 +70,8 @@ def main():
 	with open(args.output_file, 'w') as f:
 		f.write('\n'.join([s.sentence for s in short_summary]))
 
-	html_output = highlight_phrases(short_summary)
-	# html_output = highlight_phrases(model.sentences)
+	# html_output = highlight_phrases(top_sent)
+	html_output = highlight_phrases(model.sentences)
 
 	# f_name = args.input_tos_file.replace(".txt", ".html")
 	f_name = "output.html"
