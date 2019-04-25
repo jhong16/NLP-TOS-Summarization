@@ -1,12 +1,4 @@
-import RAKE
 import re
-
-def rake(sentence):
-    # print(sentence)
-    rake = RAKE.Rake(RAKE.SmartStopList())
-    keywords = rake.run(sentence, maxWords=5, minFrequency=1)
-    # print(keywords)
-    return keywords
 
 def highlight(sentence, keywords, colors, levels):
     output_string = "<p>"
@@ -29,7 +21,6 @@ def highlight(sentence, keywords, colors, levels):
 def highlight_phrases(sentences):
     scores = list()
     for sentence in sentences:
-        sentence.keywords = rake(sentence.sentence)
         keyword_scores = [x[1] for x in sentence.keywords]
         scores.extend(keyword_scores)
 
