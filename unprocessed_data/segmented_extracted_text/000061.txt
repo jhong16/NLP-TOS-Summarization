@@ -1,0 +1,33 @@
+
+Privacy - Apple
+
+Whether you’re taking a photo, asking Siri a question, or getting directions, you can do it knowing that Apple doesn’t gather your personal information to sell to advertisers or other organizations.
+
+Apple Pay gives you a safer, more private way to pay in stores, in apps, and on the web.
+When you use a credit or debit card with Apple Pay we don’t keep transaction information that can be tied back to you,
+so we can’t create a history of your purchases.
+And when you use Apple Pay Cash, information is stored only for fraud prevention, troubleshooting, and regulatory purposes.
+To make sure your credit card information is safe, a device-specific number is created and kept walled off from the rest of your iOS device.
+Neither Apple nor your device shares actual credit card numbers with merchants.
+
+When we use data to create better experiences for you, we work hard to do it in a way that doesn’t compromise your privacy.
+One example is our pioneering use of Differential Privacy, where we scramble your data and combine it with the data of millions of others.
+So we see general patterns, rather than specifics that could be traced back to you.
+These patterns help us identify things like the most popular emoji, the best QuickType suggestions, and energy consumption rates in Safari.
+
+Whenever you buy groceries with Apple Pay, send an iMessage to a friend, or make a FaceTime call, your data is encrypted for your protection.
+The same is true for the personal information that lives on your device.
+For example, the data used to identify you for Touch ID and Face ID is converted into mathematical representations that are encrypted and protected by the Secure Enclave on your device, where they cannot be accessed by iOS or apps.
+It isn’t stored on Apple servers or backed up to iCloud.
+
+We require app developers to agree to strict guidelines designed to protect your privacy.
+If we learn that an app violates these guidelines, the developer must address the issue or face removal from the App Store.
+If an app you’ve installed on your device wants to access personal information like photos or contacts, you’re prompted to give permission first.
+You can change these permissions whenever you want.
+
+Our approach to privacy
+Learn more
+Manage your privacy
+Learn more
+Transparency report
+
