@@ -87,9 +87,18 @@ class SummaryModel(object):
                 summary.append(sentence)
         return summary
     
-    def rake_sentences(self):
+    def rake_sentences(self, maxWords=5, minFrequency=1):
         for sentence in self.sentences:
-            sentence.rake_sentence()
+            sentence.rake_sentence(maxWords=maxWords, minFrequency=minFrequency)
+
+    def top_keyword_sent(self, num):
+        sent_rank = list()
+        for sentence in self.sentences:
+            sent_rank.append((sentence, sentence.keywords_rank))
+
+        top_rank = sorted(sent_rank, key=lambda x: x[1], reverse=True)[0:num]
+        order_top = [x[0] for x in top_rank]
+        return order_top
 
 def load(fp):
     """Takes in a file descriptor, normalizes and returns a Summary Model

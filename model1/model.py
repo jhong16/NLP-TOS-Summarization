@@ -4,14 +4,14 @@ import RAKE
 from lexrank import Summarizer
 
 class Sentence(object):
-    def __init__(self, sentence, words, index, rank=None, ne=None):
+    def __init__(self, sentence, words, index=None, rank=None, ne=None):
         self.sentence = sentence
         self.words = [Word(word) for word in words]
         self.rank = rank
         self.named_entities = dict() # start_p: phrase
         self.keywords = None
         self.index = index
-        self.keywords = None
+        self.keywords_rank = None
 
     def __repr__(self):
         s = ""
@@ -23,10 +23,11 @@ class Sentence(object):
         """Returns a list of the literal words"""
         return [word.token for word in self.words]
 
-    def rake_sentence(self):
+    def rake_sentence(self, maxWords=5, minFrequency=1):
         rake = RAKE.Rake(RAKE.SmartStopList())
-        # self.keywords = rake.run(self.sentence, maxWords=5, minFrequency=1)
-        self.keywords = rake.run(self.sentence)
+        self.keywords = rake.run(self.sentence, maxWords=maxWords, minFrequency=minFrequency)
+        self.keywords_rank = sum([keyword[1] for keyword in self.keywords])
+        # self.keywords = rake.run(self.sentence)
 
 
 class WordBank(object):
