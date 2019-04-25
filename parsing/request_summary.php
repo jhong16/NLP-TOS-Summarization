@@ -79,7 +79,7 @@ if (is_array($files)) {
             $return = json_decode(curl_exec($ch), true);
             curl_close($ch);
 
-            $summary = str_replace("[BREAK]", "\n\n", $return['sm_api_content']);
+            $summary = str_replace("[BREAK] ", "\n\n", $return['sm_api_content']);
             $summary_file = fopen($outfile, "w");
             fwrite($summary_file, $summary);
             fclose($summary_file);

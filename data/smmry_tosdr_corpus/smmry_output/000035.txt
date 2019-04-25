@@ -1,0 +1,13 @@
+At other search engines, when you do a search and then click on a link, your search terms are sent to that site you clicked on.
+
+We call this sharing of personal information "Search leakage." For example, when you search for something private, you are sharing that private search not only with your search engine, but also with all the sites that you clicked on.
+
+So when you do that private search, not only can those other sites know your search terms, but they can also know that you searched it.
+
+The encrypted version does protect your search from being leaked onto the computers it travels on between you and us.
+
+Another way to prevent search leakage is by using something called a POST request, which has the effect of not showing your search in your browser, and, as a consequence, does not send it to other sites.
+
+POST requests usually break browser back buttons, and they make it impossible for you to easily share your search by copying and pasting it out of your Web browser's address bar.
+
+DuckDuckGo actually operates a Tor exit enclave, which means you can get end to end anonymous and encrypted searching using Tor.[BREAK]

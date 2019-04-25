@@ -1,0 +1,13 @@
+These methods of collection may not be as obvious to you, so we wanted to highlight and explain below a bit more about what these might be and how they work: Account related information is collected in association with your use of our Services, such as account number, purchases, when products renew or expire, information requests, and customer service requests and notes or details explaining what you asked for and how we responded.
+
+Data about Usage of Services is automatically collected when you use and interact with our Services, including metadata, log files, cookie/device IDs, page load time, server response time, and approximatelocation information to measure website performance and improve our systems, including optimizing DNS resolution, network routing and server configurations.
+
+Specifically, interactions with the features, content and links contained within the Services, Internet Protocol address, browser type and settings, the date and time the Services were used, information about browser configuration and plugins, language preferences and cookie data, information about devices accessing the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and error data is collected.
+
+We may share your personal data with affiliated companies within our corporate family, with third parties with which we have partnered to allow you to integrate their services into our own Services, and with trusted third party service providers as necessary for them to perform services on our behalf, such as: --Processing credit card payments --Serving advertisements --Conducting contests or surveys --Performing analysis of our Services and customers demographics --Communicating with you, such as by way email or survey delivery --Customer relationship management.
+
+We may contact you directly or through a third party service provider regarding products or services you have signed up or purchased from us, such as necessary to deliver transactional or service related communications.
+
+If you make use of a service that allows you to import contacts, we will only use the contacts and any other personal information for the requested service.
+
+If you make a request to delete your personal data and that data is necessary for the products or services you have purchased, the request will be honored only to the extent it is no longer necessary for any Services purchased or required for our legitimate business purposes or legal or contractual record keeping requirements.[BREAK]
