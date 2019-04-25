@@ -1,14 +1,13 @@
 The information we, Couchsurfing International, Inc. collect about you, --how we use and share that information, and --the privacy choices available to you.
 
- We collect information you provide to us, such as when you create an account, update your profile, use the interactive features of our Services, participate in contests, promotions or surveys, request customer support or otherwise communicate with us.
+We collect information you provide to us, such as when you create an account, update your profile, use the interactive features of our Services, participate in contests, promotions or surveys, request customer support or otherwise communicate with us.
 
- Device Information : We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information and information about the device's interaction with our Services.
+Device Information : We collect device-specific information when you access our Services, including your hardware model, operating system and version, unique device identifiers, mobile network information and information about the device's interaction with our Services.
 
- Log Information: We collect log information about how you access or use our Services, including your access times, browser type and language, Internet Service Provider and Internet Protocol address.
+Log Information: We collect log information about how you access or use our Services, including your access times, browser type and language, Internet Service Provider and Internet Protocol address.
 
- If you create or log into your Couchsurfing account through a third-party social networking site, we will have access to certain information from that site, such as your name, profile picture, connections and other account information in accordance with the authorization procedures determined by such third-party social networking site.
+If you create or log into your Couchsurfing account through a third-party social networking site, we will have access to certain information from that site, such as your name, profile picture, connections and other account information in accordance with the authorization procedures determined by such third-party social networking site.
 
- These entities may use cookies, web beacons and other technologies to collect information about your use of the Services and other websites, including your IP address and information about your web browser and operating system, pages viewed, time spent on pages, links clicked and conversion information.
+These entities may use cookies, web beacons and other technologies to collect information about your use of the Services and other websites, including your IP address and information about your web browser and operating system, pages viewed, time spent on pages, links clicked and conversion information.
 
- These cookies may reflect de-identified demographic or other data linked to information you voluntarily provide to us in a hashed, non-human readable form.
-
+These cookies may reflect de-identified demographic or other data linked to information you voluntarily provide to us in a hashed, non-human readable form.[BREAK]

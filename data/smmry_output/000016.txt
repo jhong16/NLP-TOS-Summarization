@@ -1,14 +1,13 @@
 "GATC" means the Google Analytics Tracking Code, which is installed on a Property for the purpose of collecting Customer Data, together with any fixes, updates and upgrades provided to You.
 
- "Processing Software" means the Google Analytics server-side software and any upgrades, which analyzes the Customer Data and generates the Reports.
+"Processing Software" means the Google Analytics server-side software and any upgrades, which analyzes the Customer Data and generates the Reports.
 
- Google may change its fees and payment policies for the Service from time to time including the addition of costs for geographic data, the importing of cost data from search engines, or other fees charged to Google or its wholly-owned subsidiaries by third party vendors for the inclusion of data in the Service reports.
+Google may change its fees and payment policies for the Service from time to time including the addition of costs for geographic data, the importing of cost data from search engines, or other fees charged to Google or its wholly-owned subsidiaries by third party vendors for the inclusion of data in the Service reports.
 
- Google will not share Your Customer Data or any Third Party's Customer Data with any third parties unless Google has Your consent for any Customer Data or any Third Party's consent for the Third Party's Customer Data; concludes that it is required by law or has a good faith belief that access, preservation or disclosure of Customer Data is reasonably necessary to protect the rights, property or safety of Google, its users or the public; or provides Customer Data in certain limited circumstances to third parties to carry out tasks on Google's behalf with strict restrictions that prevent the data from being used or shared except as directed by Google.
+Google will not share Your Customer Data or any Third Party's Customer Data with any third parties unless Google has Your consent for any Customer Data or any Third Party's consent for the Third Party's Customer Data; concludes that it is required by law or has a good faith belief that access, preservation or disclosure of Customer Data is reasonably necessary to protect the rights, property or safety of Google, its users or the public; or provides Customer Data in certain limited circumstances to third parties to carry out tasks on Google's behalf with strict restrictions that prevent the data from being used or shared except as directed by Google.
 
- You will not and will not assist or permit any third party to, pass information to Google that Google could use or recognize as personally identifiable information.
+You will not and will not assist or permit any third party to, pass information to Google that Google could use or recognize as personally identifiable information.
 
- You may participate in an integrated version of Google Analytics and certain Google advertising services.
+You may participate in an integrated version of Google Analytics and certain Google advertising services.
 
- If You use Google Analytics Advertising Features, You will adhere to the Google Analytics Advertising Features policy (available at support.
-
+If You use Google Analytics Advertising Features, You will adhere to the Google Analytics Advertising Features policy (available at support.[BREAK]

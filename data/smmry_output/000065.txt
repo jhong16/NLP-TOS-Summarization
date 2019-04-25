@@ -1,14 +1,13 @@
 What Personal Information About Users Does IMDb Gather? The information we learn from users helps us personalize and continually improve your experience at IMDb.
 
- The Network Advertising Initiative offers useful information about Internet advertising companies, including information about how to opt-out of their information collection.
+The Network Advertising Initiative offers useful information about Internet advertising companies, including information about how to opt-out of their information collection.
 
- Although IMDb does not provide any personal information to advertisers, advertisers may assume that users who interact with or click on a personalized advertisement meet their criteria to personalize the ad. If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.
+Although IMDb does not provide any personal information to advertisers, advertisers may assume that users who interact with or click on a personalized advertisement meet their criteria to personalize the ad. If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.
 
- How Secure Is Information About Me? If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer software, which encrypts information you input.
+How Secure Is Information About Me? If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer software, which encrypts information you input.
 
- Examples of Information Collected Information You Give Us: You provide most such information when you register, search, post, participate in a contest or questionnaire, or communicate with us.
+Examples of Information Collected Information You Give Us: You provide most such information when you register, search, post, participate in a contest or questionnaire, or communicate with us.
 
- You provide information when you search for a movie, actor or director; provide information in our registration form; communicate with us by phone, e-mail, or otherwise; complete a questionnaire or a contest entry form; vote in a poll; provide movie reviews or information related to movies; participate in a discussion board; and employ our notification services.
+You provide information when you search for a movie, actor or director; provide information in our registration form; communicate with us by phone, e-mail, or otherwise; complete a questionnaire or a contest entry form; vote in a poll; provide movie reviews or information related to movies; participate in a discussion board; and employ our notification services.
 
- Automatic Information: Examples of the information we collect and analyze include the Internet protocol address used to connect your computer to the Internet; login; password; computer and connection information such as browser type and version, operating system, and platform; purchase history; the full Uniform Resource Locators clickstream to, through, and from our Web site, including date and time; cookie number; and pages you viewed or searched for.
-
+Automatic Information: Examples of the information we collect and analyze include the Internet protocol address used to connect your computer to the Internet; login; password; computer and connection information such as browser type and version, operating system, and platform; purchase history; the full Uniform Resource Locators clickstream to, through, and from our Web site, including date and time; cookie number; and pages you viewed or searched for.[BREAK]

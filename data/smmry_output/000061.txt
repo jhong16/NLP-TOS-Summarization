@@ -1,14 +1,13 @@
 Privacy - Apple Whether you're taking a photo, asking Siri a question, or getting directions, you can do it knowing that Apple doesn't gather your personal information to sell to advertisers or other organizations.
 
- Apple Pay gives you a safer, more private way to pay in stores, in apps, and on the web.
+Apple Pay gives you a safer, more private way to pay in stores, in apps, and on the web.
 
- Neither Apple nor your device shares actual credit card numbers with merchants.
+Neither Apple nor your device shares actual credit card numbers with merchants.
 
- Whenever you buy groceries with Apple Pay, send an iMessage to a friend, or make a FaceTime call, your data is encrypted for your protection.
+Whenever you buy groceries with Apple Pay, send an iMessage to a friend, or make a FaceTime call, your data is encrypted for your protection.
 
- If we learn that an app violates these guidelines, the developer must address the issue or face removal from the App Store.
+If we learn that an app violates these guidelines, the developer must address the issue or face removal from the App Store.
 
- If an app you've installed on your device wants to access personal information like photos or contacts, you're prompted to give permission first.
+If an app you've installed on your device wants to access personal information like photos or contacts, you're prompted to give permission first.
 
- Our approach to privacy Learn more Manage your privacy Learn more Transparency report.
-
+Our approach to privacy Learn more Manage your privacy Learn more Transparency report.[BREAK]

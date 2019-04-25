@@ -1,14 +1,13 @@
 In addition to the automatically collected anonymous data described above, we may place information on your device and then retrieve it later: we may use cookies, web beacons, or other anonymous tracking information to improve our server's interaction with your device.
 
- A username is, by nature, publicly posted information.
+A username is, by nature, publicly posted information.
 
- On occasion we may run a contest or other type of promotion, and to enable us to award prizes to the winners as well as to comply with the applicable laws, we collect real names and contact information - so if you win a contest, we'll ask for that information and we'll use it only for those two specific purposes.
+On occasion we may run a contest or other type of promotion, and to enable us to award prizes to the winners as well as to comply with the applicable laws, we collect real names and contact information - so if you win a contest, we'll ask for that information and we'll use it only for those two specific purposes.
 
- We collect whatever personal data about you that you choose to give us, such as a contact email address and profile information.
+We collect whatever personal data about you that you choose to give us, such as a contact email address and profile information.
 
- with respect to persons in the EEA - does not "Process" or determine any purposes for processing of any information that you manifestly make public.
+with respect to persons in the EEA - does not "Process" or determine any purposes for processing of any information that you manifestly make public.
 
- Because we don't collect information about the identity of our users and don't receive any information from third parties enabling us to identify our users, we have no means of knowing, or providing you with information about, whatever anonymous data about you we might have on our servers - unless you have a username.
+Because we don't collect information about the identity of our users and don't receive any information from third parties enabling us to identify our users, we have no means of knowing, or providing you with information about, whatever anonymous data about you we might have on our servers - unless you have a username.
 
- If you have a username, you may log in and access your data, correct whatever information you deem to be incorrect, opt out of information sharing with our advertisers, or delete your account.
-
+If you have a username, you may log in and access your data, correct whatever information you deem to be incorrect, opt out of information sharing with our advertisers, or delete your account.[BREAK]

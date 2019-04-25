@@ -1,14 +1,13 @@
 The Information We CollectWe collect information directly from individuals, from third parties, and automatically through the Quora Platform.
 
- Once you create a profile, other users will be able to see in your profile certain information about your activity on the Quora Platform, such as the questions and answers you post, your followers and who you follow, topics of interest to you, the information you list as credentials, and your edits to Your Content.
+Once you create a profile, other users will be able to see in your profile certain information about your activity on the Quora Platform, such as the questions and answers you post, your followers and who you follow, topics of interest to you, the information you list as credentials, and your edits to Your Content.
 
- We use cookies, log files, pixel tags, local storage objects, and other tracking technologies to automatically collect information about your activities, such as your searches, page views, date and time of your visit, and other information about your use of the Quora Platform.
+We use cookies, log files, pixel tags, local storage objects, and other tracking technologies to automatically collect information about your activities, such as your searches, page views, date and time of your visit, and other information about your use of the Quora Platform.
 
- We collect browsing information - such as IP address and location, date and time stamp, user agent, Quora cookie ID, URL, unique advertising or content identifiers and time zone, and other information about user activities on the Quora Platform, as well as on third party sites and services that have embedded our Quora pixels, widgets, plug-ins, buttons, or related services.
+We collect browsing information - such as IP address and location, date and time stamp, user agent, Quora cookie ID, URL, unique advertising or content identifiers and time zone, and other information about user activities on the Quora Platform, as well as on third party sites and services that have embedded our Quora pixels, widgets, plug-ins, buttons, or related services.
 
- Your Content, including your name, profile picture, profile information, and certain associated activity information is available to other users of the Quora Platform and may be viewed publicly.
+Your Content, including your name, profile picture, profile information, and certain associated activity information is available to other users of the Quora Platform and may be viewed publicly.
 
- Users of our Ad Services may also provide us with information as part of their ad campaigns, including customer list information with us in order to create customized audiences for their ad campaigns; we only use this information to facilitate the particular user's campaign or for fraud detection and security purposes; and we do not disclose this information to third parties unless required by law.
+Users of our Ad Services may also provide us with information as part of their ad campaigns, including customer list information with us in order to create customized audiences for their ad campaigns; we only use this information to facilitate the particular user's campaign or for fraud detection and security purposes; and we do not disclose this information to third parties unless required by law.
 
- If we become aware that we have collected personal information from a child under the relevant age without parental consent, we take steps to delete that information.
-
+If we become aware that we have collected personal information from a child under the relevant age without parental consent, we take steps to delete that information.[BREAK]
