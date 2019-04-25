@@ -32,11 +32,13 @@ def test_sentence_compress():
 
 if __name__ == '__main__':
 	original, compressed, compressed_prediction, scores = test_sentence_compress()
+	total_scores = sum(scores)
 	for i, s in enumerate(compressed_prediction):
 		print(original[i].sentence)
 		print(compressed[i])
 		print(s)
 		print(scores[i], '\n')
+	print("average bleu score: {}".format(total_scores/len(scores)))
 
 
 # Example:

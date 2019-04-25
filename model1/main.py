@@ -28,7 +28,7 @@ def pattern(seq):
 
 def main():
 	parser = argparse.ArgumentParser(description="First Model of Sentence Summarization")
-	parser.add_argument("input_tos_file", help="The Raw Terms of Service File")
+	parser.add_argument("input_tos_file", help="The Raw Terms of Service File") # there should be an option for url instead
 	parser.add_argument("--percent", type=float, default=0.2, help="Desired length as percentage of original ToS")
 	# I should make this a nicer number to use, like percentage or number of words
 	parser.add_argument("--compression_level", type=int, default=500, help="Approximate desired maximum length of sentences in characters.")
@@ -52,18 +52,6 @@ def main():
 	model.rank_sentences()
 	model.rake_sentences()
 	# Print the 10 most common words
-	# print(model.common_words(10))
-
-	compliance_summary = model.keyword_summary("must")
-
-	percent = args.percent
-	short_summary = model.shorten(percent)
-	print(f"{percent*100}% of the Summary")
-	for sentence in short_summary:
-		print(sentence.sentence)
-	with open('output.txt', 'w') as f:
-		f.write('\n'.join([s.sentence for s in short_summary]))
-
 	# print(model.common_words(10))
 
 	compliance_summary = model.keyword_summary("must")

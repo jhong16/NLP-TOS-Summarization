@@ -130,7 +130,7 @@ class SentenceCompress:
 			rightmost elements will be looked at first. """
 		for index, node in reversed(list(enumerate(tree))):
 			if type(node) == Tree:
-				if index == len(tree)-1 and node.label() == phrase_type:
+				if index == len(tree)-1 and node.label() == phrase_type and self.clause_significance(node) < 0.01:
 					tree[index] = None
 					return True
 				else:
@@ -161,6 +161,16 @@ class SentenceCompress:
 				break
 			self.set_1_trailing(tree, phrase)
 		return tree
+
+	# given a subtree, get is significance
+	def clause_significance(self, tree):
+		clause_sig = 0
+		for index, node in enumerate(tree):
+			if type(node) == Tree:
+				clause_sig += self.clause_significance(node) 
+			else:
+				clause_sig += self.word_significance(node)
+		return clause_sig
 
 	def tree_to_sentence_helper(self, tree, sentence_str):
 		""" Recursive helper to convert nltk tree, which may have nodes with value 'None',
