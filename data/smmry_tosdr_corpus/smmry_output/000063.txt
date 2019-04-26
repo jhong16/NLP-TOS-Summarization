@@ -1,0 +1,13 @@
+As part of this use of information, we may provide aggregate information, not information about you personally, to our partners about how our users, collectively, use our Service.
+
+One such service may include the ability for you to automatically transmit Third Party Account Information to your Services profile or to automatically transmit information in your Services profile to your third party account.
+
+Will IFTTT Share Any of the Information it Receives with Other Entities? We may use third party service providers to facilitate or outsource one or more aspects of our business and therefore we may provide some of your personal information directly to these service providers.
+
+Information we receive directly from you: We receive Personal Data directly from you when you provide us with such Personal Data, including without limitation the following: --First and last name --Email address --Mailing address --Telephone number --Transaction Information --User content, for example, action ingredients that are displayed when an Applet runs Information we receive from third party sources includes Applet trigger fields, ingredients, and action fields.
+
+Such as our business partners and service providers, provide us with Personal Data about you, such as the following: -- Account information for third party Platform Services: If you interact with a third party Platform Service when using our Service, such as if you use a third party service to log-in to our Service, or if you share content from our Service through a third party social media Platform Service, the third party service will send us information about you, such as information from your public profile, if the third party service and your account settings allow such sharing.
+
+Information from our advertising partners: We receive information about you from some of our service providers who assist us with marketing or promotional services related to how you interact with our websites, applications, products, services, advertisements or communications.
+
+Information we automatically collect when you use our Service: Some Personal Data is automatically collected when you use our Service, such as the following: IP address Device identifiers Web browser information Page view statistics Browsing history Usage information Transaction information Cookies and other tracking technologies Location information Log data How Do We Use Your Personal Data? We process Personal Data to operate, improve, understand and personalize our Service.[BREAK]

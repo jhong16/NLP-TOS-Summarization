@@ -1,0 +1,13 @@
+Transaction data: --historic data for three months --basic transaction data for tax purposes in accordance with tax retention periods Analytics data For 180 days.
+
+Email our Data Protection Officer Your protection and data confidentiality is of utmost importance to us; that is why we take protecting your personal data very seriously and collect as little data as possible.
+
+Definitions "Collection" of/ To "Collect" personal data means any acquisition of data about you, including any accessing of personal data.
+
+" Processing" of personal data means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+
+Deletion of Extension data We delete all data collected in connection with the Extension as follows: Events, flattrs, session data and the domains, which you have black- and/or whitelisted will be deleted in connection with the deletion of the Extension.
+
+We process personal data in compliance with the European General Data Protection Regulation 2016/679) and the applicable German and Swedish national data protection laws: Processing is necessary for taking steps prior to enter into a contract (Art.
+
+In compliance with the GDPR and the applicable EU laws and German national data protection laws and to the extent legally permitted, you have the following rights to protect your personal data collected and processed by us: Information, access, rectification and restriction rights Naturally you have the right to receive, upon request, information about the personal data stored by us about you and how we Process your personal data.[BREAK]
