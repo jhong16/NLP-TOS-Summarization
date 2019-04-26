@@ -46,7 +46,7 @@ def main():
 	fp.close()
 
 	# BTW this is slow.
-	model.compress_sentences(beta=args.compression_level, path_to_jar=args.path_to_jar, path_to_models_jar=args.path_to_models_jar)
+	# model.compress_sentences(beta=args.compression_level, path_to_jar=args.path_to_jar, path_to_models_jar=args.path_to_models_jar)
 	
 	model.rank_sentences()
 	model.rake_sentences(maxWords=2, minFrequency=1)
@@ -57,12 +57,13 @@ def main():
 	# Print the 10 most common words
 	# print(model.common_words(10))
 
-	compliance_summary = model.keyword_summary("google")
-	for sentence in compliance_summary:
-		print(sentence.sentence)
+	# compliance_summary = model.keyword_summary("google")
+	# for sentence in compliance_summary:
+	# 	print(sentence.sentence)
 
 	percent = args.percent
-	short_summary = model.shorten(percent)
+	# short_summary = model.shorten(percent)
+	short_summary = model.top_sent(7)
 	print(f"{percent*100}% of the Summary")
 	for sentence in short_summary:
 		print(sentence.sentence)
