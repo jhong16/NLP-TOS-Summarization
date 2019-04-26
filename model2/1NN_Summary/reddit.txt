@@ -1,0 +1,31 @@
+Effective September 24, 2018.
+By accessing or using our Services, you agree to be bound by these Terms.
+Reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services solely as permitted by these Terms.
+license, sell, transfer, assign, distribute, host, or otherwise commercially exploit the Services or Content;
+We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice to you.
+We recommend that you use a strong password that is used only with the Services.
+You will not license, sell, or transfer your Account without our prior written approval.
+The Services may contain information, text, links, graphics, photos, videos, or other materials (“Content”), including Content created with or submitted to the Services by you or through your Account (“Your Content”).
+By submitting Your Content to the Services, you represent and warrant that you have all rights, power, and authority necessary to grant the rights to Your Content contained within these Terms.
+You retain any ownership rights you have in Your Content, but you grant Reddit the following license to use that Content:
+When Your Content is created with or submitted to the Services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works from, distribute, perform, and display Your Content and any name, username, voice, or likeness provided in connection with Your Content in all media formats and channels now known or later developed.
+Any ideas, suggestions, and feedback about Reddit or our Services that you provide to us are entirely voluntary, and you agree that Reddit may use such ideas, suggestions, and feedback without compensation or obligation to you.
+Although we have no obligation to screen, edit, or monitor Your Content, we may, in our sole discretion, delete or remove Your Content at any time and for any reason, including for a violation of these Terms, a violation of our Content Policy, or if you otherwise create liability for us.
+The Services may also contain sponsored Third-Party Content or advertisements.
+The type, degree, and targeting of advertisements are subject to change, and you acknowledge and agree that we may place advertisements in connection with the display of any Content or information on the Services, including Your Content.
+The terms of your promotion must specifically state that the promotion is not sponsored by, endorsed by, or associated with Reddit and the rules for your promotion must require each entrant or participant to release Reddit from any liability related to the promotion.
+6.
+We support the responsible reporting of security vulnerabilities.
+Attempt to gain unauthorized access to another user’s Account or to the Services (or to other computer systems or networks connected to or used together with the Services);
+Use the Services to harvest, collect, gather or assemble information or data regarding the Services or users of the Services except as permitted in these Terms or in a separate agreement with Reddit;
+Access, query, or search the Services with any automated system, other than through our published interfaces and pursuant to their applicable terms.
+However, we conditionally grant permission to crawl the Services for the sole purpose of and solely to the extent necessary for creating publicly available searchable indices of the materials subject to the parameters set forth in our robots.txt file.
+Moderators
+We reserve the right to revoke or limit a user’s ability to moderate at any time and for any reason or no reason, including for a breach of these Terms.
+You may not perform moderation actions in return for any form of compensation or favor from third parties;
+§512(g)(3) for the requirements of a proper counter notification.
+We reserve the right to control the defense of any matter for which you are required to indemnify us, and you agree to cooperate with our defense of these claims.
+REDDIT DOES NOT CONTROL, ENDORSE, OR TAKE RESPONSIBILITY FOR ANY CONTENT AVAILABLE ON OR LINKED TO THE SERVICES OR THE ACTIONS OF ANY THIRD PARTY OR USER, INCLUDING MODERATORS.
+If you are a U.S. federal government entity: any claims arising out of or relating to these Terms or the Services will be governed by the laws of the United States of America without reference to conflict of laws.
+You may terminate these Terms at any time and for any reason by deleting your Account and discontinuing your use of all Services.
+Our failure to exercise or enforce any right or provision of these Terms will not operate as a waiver of such right or provision.
