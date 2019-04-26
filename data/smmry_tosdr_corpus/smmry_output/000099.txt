@@ -1,0 +1,13 @@
+We may combine that data with information that we have collected.
+
+In general, we analyze aggregated data, rather than specific user data.
+
+We use reasonable efforts to vet vendors for their privacy and data security practices.
+
+If you receive information from other users, you must comply with all laws, including those concerning privacy, data security, and online marketing.
+
+It is Vimeo's policy to comply with the EU's General Data Protection Regulation.
+
+You have the right to: opt out of non-essential cookies; access, correct, delete, restrict, or object to our use of your personal information; be forgotten; port your data; and withdraw consents.
+
+Vimeo complies with the EU-U.S. Privacy Shield Framework and Swiss-U.S. Privacy Shield Framework regarding the collection, use, and retention of personal information transferred from the EU to the U.S. Vimeo adheres to the Privacy Shield principles of notice, choice, onward transfer, security, data integrity, access, and enforcement.

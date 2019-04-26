@@ -10,4 +10,4 @@ We may discontinue some or all of any IMDb Software we provide, and we may termi
 
 Additional third party terms contained within or distributed with certain IMDb Software that are specifically identified in related documentation may apply to that IMDb Software and will govern the use of that IMDb Software in the event of a conflict with these Conditions of Use.
 
-You may not, and you will not encourage, assist or authorize any other person to modify, reverse engineer, decompile or disassemble, or otherwise tamper with, the IMDb Software, whether in whole or in part, or create any derivative works from or of the IMDb Software.[BREAK]
+You may not, and you will not encourage, assist or authorize any other person to modify, reverse engineer, decompile or disassemble, or otherwise tamper with, the IMDb Software, whether in whole or in part, or create any derivative works from or of the IMDb Software.

@@ -10,4 +10,4 @@ If you create or log into your Couchsurfing account through a third-party social
 
 These entities may use cookies, web beacons and other technologies to collect information about your use of the Services and other websites, including your IP address and information about your web browser and operating system, pages viewed, time spent on pages, links clicked and conversion information.
 
-These cookies may reflect de-identified demographic or other data linked to information you voluntarily provide to us in a hashed, non-human readable form.[BREAK]
+These cookies may reflect de-identified demographic or other data linked to information you voluntarily provide to us in a hashed, non-human readable form.

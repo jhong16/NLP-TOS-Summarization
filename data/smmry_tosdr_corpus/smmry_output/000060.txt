@@ -10,4 +10,4 @@ You can reach us via postal mail at the following address:Groupon Inc. Attention
 
 Device Data means information concerning a device you use to access, use, or interact with the Site, such as operating system type or mobile device model, browser type, domain, and other system settings, the language your system uses and the country and time zone of your device, geolocation, including precise geolocation, unique device identifier or other device identifier, advertising identifier, mobile phone carrier identification, and device software platform and firmware information.
 
-Personal Information means information about you that specifically identifies you or, when combined with other information we have, can be used to identify you.[BREAK]
+Personal Information means information about you that specifically identifies you or, when combined with other information we have, can be used to identify you.

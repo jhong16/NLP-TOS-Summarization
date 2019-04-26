@@ -10,4 +10,4 @@ If we learn that an app violates these guidelines, the developer must address th
 
 If an app you've installed on your device wants to access personal information like photos or contacts, you're prompted to give permission first.
 
-Our approach to privacy Learn more Manage your privacy Learn more Transparency report.[BREAK]
+Our approach to privacy Learn more Manage your privacy Learn more Transparency report.
