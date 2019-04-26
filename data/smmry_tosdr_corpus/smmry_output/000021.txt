@@ -10,4 +10,4 @@ We encrypt certain sensitive personal information such as credit card informatio
 
 Because the circumstances may vary depending on the context and the services, the information provided in Online Privacy Statement or provided in a specific notice may provide more detailed information on applicable retention terms.
 
-Under GDPR you may also have the right to request to have your personal information deleted or restricted and ask for portability of your personal information.[BREAK]
+Under GDPR you may also have the right to request to have your personal information deleted or restricted and ask for portability of your personal information.

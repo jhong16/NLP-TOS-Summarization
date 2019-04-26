@@ -10,4 +10,4 @@ Right to lodge a complaint with the data protection authority : If you have a co
 
 We rely on the EU-U.S. Privacy Shield certification to transfer Personal Data that we receive from the EU to Reputation.com in the U.S. Upon request, Reputation.com will provide you with information about whether we hold any of your Personal Data.
 
-To determine the appropriate retention period for your Personal Data, we will consider the amount, nature, and sensitivity of the Personal Data, the potential risk of harm from unauthorized use or disclosure of your Personal Data, the purposes for which we use your Personal Data and whether we can achieve those purposes through other means, and the applicable legal requirements.[BREAK]
+To determine the appropriate retention period for your Personal Data, we will consider the amount, nature, and sensitivity of the Personal Data, the potential risk of harm from unauthorized use or disclosure of your Personal Data, the purposes for which we use your Personal Data and whether we can achieve those purposes through other means, and the applicable legal requirements.

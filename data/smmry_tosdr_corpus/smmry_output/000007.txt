@@ -10,4 +10,4 @@ The personal information which you give to Apple when registering for the servic
 
 SPECIAL PROVISIONS FOR PARTICULAR SERVICES Apple does not guarantee or warrant that any photos, digital images or text you send to Apple for the purpose of ordering photos or custom photo albums through the Services will not be subject to inadvertent damage, corruption or destruction.
 
-If any Content which is transmitted to Apple is damaged, lost or corrupted in any way, Apple will have no obligation or liability to you.[BREAK]
+If any Content which is transmitted to Apple is damaged, lost or corrupted in any way, Apple will have no obligation or liability to you.
