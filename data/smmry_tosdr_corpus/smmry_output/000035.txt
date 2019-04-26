@@ -10,4 +10,4 @@ Another way to prevent search leakage is by using something called a POST reques
 
 POST requests usually break browser back buttons, and they make it impossible for you to easily share your search by copying and pasting it out of your Web browser's address bar.
 
-DuckDuckGo actually operates a Tor exit enclave, which means you can get end to end anonymous and encrypted searching using Tor.[BREAK]
+DuckDuckGo actually operates a Tor exit enclave, which means you can get end to end anonymous and encrypted searching using Tor.

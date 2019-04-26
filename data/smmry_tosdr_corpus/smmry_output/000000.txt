@@ -10,4 +10,4 @@ User Profile information: Information collected during registration and subseque
 
 Service Providers: 500px may share user information as well as information from tools such as cookies, log files, device identifiers and location data, with third-parties that help 500px provide services to you.
 
-If we learn that 500px has collected information from a child under the age of 13, we will delete that information as quickly as possible.[BREAK]
+If we learn that 500px has collected information from a child under the age of 13, we will delete that information as quickly as possible.

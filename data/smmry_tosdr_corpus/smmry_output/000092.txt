@@ -10,4 +10,4 @@ If you provide Valve with any feedback or suggestions about Steam, the Content a
 
 Notwithstanding the license described in Section 6.A., Valve will only have the right to modify or create derivative works from your Workshop Contribution in the following cases: Valve may make modifications necessary to make your Contribution compatible with Steam and the Workshop functionality or user interface, and Valve or the applicable developer may make modifications to Workshop Contributions that are accepted for in-Application distribution as it deems necessary or desirable to enhance gameplay.
 
-Valve shall not have any obligation to refund any fees that may have accrued to your Account before cancellation of your Account or cessation of use of any Subscription, nor shall Valve have any obligation to prorate any fees in such circumstances.[BREAK]
+Valve shall not have any obligation to refund any fees that may have accrued to your Account before cancellation of your Account or cessation of use of any Subscription, nor shall Valve have any obligation to prorate any fees in such circumstances.

@@ -10,4 +10,4 @@ The Service may contain links or connections to third party websites or services
 
 If you share a User Submission publicly on the Service and/or in a manner that more than just you or certain specified users can view, or if you provide us with any feedback, suggestions, improvements, enhancements, and/or feature requests relating to the Service, then you grant IFTTT the licenses above, as well as a license to display, perform, and distribute your Public User Submission for the purpose of making that Public User Submission accessible to all IFTTT users and providing the Service necessary to do so, as well as all other rights necessary to use and exercise all rights in that Public User Submission in connection with the Service and/or otherwise in connection with IFTTT's business.
 
-We will notify you before the Service you are then using begins carrying a fee, and if you wish to continue using the Service, you must pay all applicable fees for the Service.[BREAK]
+We will notify you before the Service you are then using begins carrying a fee, and if you wish to continue using the Service, you must pay all applicable fees for the Service.

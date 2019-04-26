@@ -10,4 +10,4 @@ Customer is the controller of Personal Data and Microsoft is the processor of su
 
 Your organization may use management tools provided by Microsoft or others to access and process your data from that device, including your interaction data, diagnostic data, and the contents of your communications and files.
 
-We collect the following data at the Basic level:--Device, connectivity, and configuration data: Data about the device such as the processor type, OEM manufacturer, type of battery and capacity, number and type of cameras, firmware, and memory attributes.[BREAK]
+We collect the following data at the Basic level:--Device, connectivity, and configuration data: Data about the device such as the processor type, OEM manufacturer, type of battery and capacity, number and type of cameras, firmware, and memory attributes.

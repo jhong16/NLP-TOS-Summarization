@@ -10,4 +10,4 @@ We use Customer Data, Support Data, and Personal Data as described in the OST an
 
 Customer is the controller of Personal Data and Microsoft is the processor of such data, except when Customer acts as a processor of Personal Data, in which case Microsoft is a subprocessor or stated otherwise in the OST.Administrator Data is the information provided to Microsoft during sign-up, purchase, or administration of Enterprise Online Services.
 
-Your organization may use management tools provided by Microsoft or others to access and process your data from that device, including your interaction data, diagnostic data, and the contents of your communications and files.[BREAK]
+Your organization may use management tools provided by Microsoft or others to access and process your data from that device, including your interaction data, diagnostic data, and the contents of your communications and files.
