@@ -51,8 +51,12 @@ def main():
 	model.rank_sentences()
 	model.rake_sentences(maxWords=2, minFrequency=1)
 	top_sent = model.top_keyword_sent(7)
-	for sentence in top_sent:
-		print(sentence.sentence)
+	word_set = set()
+	for sentence in model.sentences:
+		for word_tuple in sentence.keywords:
+			if word_tuple[1] < 2 and word_tuple[1] >= 1:
+				word_set.add(word_tuple[0])
+	print(", ".join(word_set))
 
 	# Print the 10 most common words
 	# print(model.common_words(10))
@@ -63,12 +67,12 @@ def main():
 
 	percent = args.percent
 	# short_summary = model.shorten(percent)
-	short_summary = model.top_sent(7)
-	print(f"{percent*100}% of the Summary")
-	for sentence in short_summary:
-		print(sentence.sentence)
-	with open('output.txt', 'w') as f:
-		f.write('\n'.join([s.sentence for s in short_summary]))
+	# short_summary = model.top_sent(7)
+	# print(f"{percent*100}% of the Summary")
+	# for sentence in short_summary:
+	# 	print(sentence.sentence)
+	# with open('output.txt', 'w') as f:
+	# 	f.write('\n'.join([s.sentence for s in short_summary]))
 
 	# html_output = highlight_phrases(top_sent)
 	html_output = highlight_phrases(model.sentences)
