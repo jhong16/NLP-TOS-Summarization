@@ -1,0 +1,2 @@
+“Auxiliary Product” means any product you can interact with or operate using an Alexa Enabled Product, including Alexa Gadgets and smart home devices such as lights, switches, and thermostats.
+Amazon processes and retains your Alexa Interactions, such as your voice inputs, music playlists, and your Alexa to-do and shopping lists, in the cloud to provide, personalize, and improve our services.
