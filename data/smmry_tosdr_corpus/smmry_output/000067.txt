@@ -10,4 +10,4 @@ with respect to persons in the EEA - does not "Process" or determine any purpose
 
 Because we don't collect information about the identity of our users and don't receive any information from third parties enabling us to identify our users, we have no means of knowing, or providing you with information about, whatever anonymous data about you we might have on our servers - unless you have a username.
 
-If you have a username, you may log in and access your data, correct whatever information you deem to be incorrect, opt out of information sharing with our advertisers, or delete your account.[BREAK]
+If you have a username, you may log in and access your data, correct whatever information you deem to be incorrect, opt out of information sharing with our advertisers, or delete your account.

@@ -10,4 +10,4 @@ Trello validates files for well-formedness and the like we have explicitly desig
 
 Trello board data is available for export by board members in JSON format via the Trello REST API. File attachments can be individually retrieved directly from Amazon S3 using the file's unique hyperlink.
 
-Trello had over 99.99% uptime in 2017 and 2018, and any downtime is documented at Trello's status page.5 A Trello problem impacting a Trello Enterprise customer will be assigned a Severity Level and handled according to the resolutions in Table 1.[BREAK]
+Trello had over 99.99% uptime in 2017 and 2018, and any downtime is documented at Trello's status page.5 A Trello problem impacting a Trello Enterprise customer will be assigned a Severity Level and handled according to the resolutions in Table 1.

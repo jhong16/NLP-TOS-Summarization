@@ -10,4 +10,4 @@ INTELLECTUAL PROPERTY You agree that the Service, including but not limited to g
 
 You agree not to modify, rent, lease, loan, sell, distribute, or create derivative works based on the Service, in any manner, and you shall not exploit the Service in any unauthorized way whatsoever, including, but not limited to, by trespass or burdening network capacity.
 
-Apple may send you notice with respect to the Service by sending an email message to your Account email address or a letter via postal mail to your Account mailing address, or by a posting on the Service.[BREAK]
+Apple may send you notice with respect to the Service by sending an email message to your Account email address or a letter via postal mail to your Account mailing address, or by a posting on the Service.
