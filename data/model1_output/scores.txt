@@ -1,0 +1,16 @@
+python test.py data/tos_ground_truth/amazon_alexa_tos_summary.txt data/model1_output/amazon_alexa_l29_c400.txt
+Precision is :0.5241596638655462
+Recall is :0.3586058210564139
+F Score is :0.42585971002611667
+
+python test.py data/tos_ground_truth/reddit_tos_summary.txt data/model1_output/reddit_tos_l34_c400.txt
+Precision is :0.4128934522807608
+Recall is :0.43462083628632175
+F Score is :0.42347958620032555
+Bleu: 0.21943880575273228
+
+python test.py data/tos_ground_truth/atlassian_cloud_tos_summary.txt data/model1_output/atlassian_l38_c400.txt
+
+python test.py data/tos_ground_truth/instagram_tos_summary.txt data/model1_output/
+
+python test.py data/tos_ground_truth/atlassian_cloud_tos_summary.txt data/model1_output/atlassian_l38_c400.txt

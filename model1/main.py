@@ -60,9 +60,9 @@ def main():
 	# Print the 10 most common words
 	# print(model.common_words(10))
 
-	compliance_summary = model.keyword_summary("google")
-	for sentence in compliance_summary:
-		print(sentence.sentence)
+	# compliance_summary = model.keyword_summary("google")
+	# for sentence in compliance_summary:
+	# 	print(sentence.sentence)
 
 	if args.percent:
 		short_summary = model.shorten(args.percent)
