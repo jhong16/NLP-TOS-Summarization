@@ -54,12 +54,10 @@ class SummaryModel(object):
         ranks = [sentence.rank for sentence in self.sentences]
         threshold = sorted(ranks, reverse=True)[0:int(len(ranks) * percentage)][-1]
 
-        # print(f"{percentage*100}% of the Summary")
         short_summary = list()
         for sentence in self.sentences:
             if sentence.rank > threshold:
                 short_summary.append(sentence)
-                # print(f"{sentence.sentence}")
         return short_summary
 
     def top_sent(self, num):
@@ -67,13 +65,10 @@ class SummaryModel(object):
         for sentence in self.sentences:
             sent_rank.append((sentence, sentence.rank))
         
-        # print(sorted(sent_rank, reverse=True))
         top_rank = sorted(sent_rank, key=lambda x: x[1], reverse=True)[0:num]
-        # print(len(top_rank))
         order_top = [x[0] for x in top_rank]
         # for sentence in self.sentences:
         #     if sentence.rank in top_rank:
-        #         # print(sentence)
         #         order_top.append(sentence)
         return order_top
 
