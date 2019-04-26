@@ -1,0 +1,7 @@
+This Privacy Policy covers 500px's treatment of personal information that 500px gathers when you are and when you use 500px services.
+500px and its authorized agents receive and record certain`` traffic data'' on their server logs from your browser and apps including your IP address, 500px cookie information, and the page you requested.
+Providers: 500px may share user information as well as information from tools such as cookies, log files, device identifiers and location data, with third-parties that help 500px provide services to you.
+500px may remove parts of data that can identify you and share anonymized data with Service Providers, including combining your information with other information in a way that it is associated with you.
+ In addition to the`` traffic data'', 500px and its authorized agents may collect information.
+We recommend that you use extreme caution in sharing any personal information with other users through 500px's messenger service and 500px is not responsible for any information that you disclose to other users through 500px's messenger service.
+500px requires Services Providers to protect your data in a manner consistent with this Policy and to limit the use of such information.

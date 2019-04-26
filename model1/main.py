@@ -3,9 +3,9 @@ import os.path
 import sys
 
 from highlight import highlight_phrases
-from lexrank import Summarizer
+# from lexrank import Summarizer
 from summary_model import load
-from parse import parse_tos
+# from parse import parse_tos
 # from sentence_compress import SentenceCompress
 
 from nltk.translate.bleu_score import corpus_bleu, sentence_bleu

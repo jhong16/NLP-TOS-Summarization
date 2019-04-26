@@ -1,0 +1,7 @@
+• Technical Data includes internet protocol address, unique Cookie ID, Device ID, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access the Service.
+We use cookies to collect Technical Data and information about how you use the Service and Partner Sites, to track your usage of the Service on Partner Sites over time, and to personalize the content we show you, including ads.
+For users based in the European Economic Area we may share your personal data within the Disqus Group or with external third parties.
+You have the right to ask us to delete or remove your personal data where you have exercised your right to object to processing, where we may have processed your information or where we are required to erase your personal data to comply with local law.
+Note that even if you choose to opt-out of targeted advertising from Disqus, you will see ads from us, they wo n't be targeted to you based on your interaction with the Service, Partner Sites or third-party sites.
+In doing, we may deliver you targeted ads based on Technical, Profile and Usage data collected on the Service and Partner Sites.
+We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data.

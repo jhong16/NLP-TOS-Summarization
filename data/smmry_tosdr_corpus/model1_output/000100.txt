@@ -1,0 +1,7 @@
+If you monetize any video we host through a third-party payment solution, you will be deemed to be using an`` application'' governed by our API License Addendum.
+You will indemnify, defend, and hold harmless Vimeo and its subsidiaries, parents, affiliates, directors, officers, employees, and agents, from and against all third-party actions arising from:-LRB- a-RRB- the content you submit to or through the Services; and-LRB- b-RRB- allegations of actions or omissions by you that would constitute a breach of this Agreement.
+If you breach this Agreement, Vimeo may, at its option:-LRB- a-RRB- terminate this Agreement, with or without advance written notice;-LRB- b-RRB- suspend, delete, or limit access to your account or any content within it; and-LRB- c-RRB- to the extent permitted by applicable law, retain any amounts.
+You may not assign this Agreement to any person whose account has been terminated by Vimeo or who is prohibited from registering.
+Choice of Law: This Agreement will be governed by the laws of New York State and the United States of America, without regard to principles of conflicts of law.
+If you have a paid account, we commit to providing the core video hosting and streaming features of your plan during your current service period.
+Vimeo Basic members and Plus subscribers may not: use the Services for commercial purposes unless they are film professionals or small film businesses; or-LRB- b-RRB- submit videos that they did not create or play a material part in creating.

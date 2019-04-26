@@ -1,0 +1,7 @@
+For the purposes of the EU General Data Protection Regulation, the controller of your personal information is International Business Machines Corporation, 1 New Orchard Road, Armonk, New York, United States, unless indicated.
+For details regarding the technologies we employ, the personal information we collect, as well as to control or block tracking or to delete cookies refer to the IBM Online Privacy Statement.
+This Privacy Statement describes IBM's general privacy practices that apply.
+At IBM we recognize the importance of protecting your personal information and are committed to processing it and in compliance with applicable data protection laws in all countries in which IBM operates.
+As a global organization offering a wide range of products and services, with business processes, management structures and technical systems that cross borders, IBM has implemented global policies,, for consistent protection of personal information.
+We may share your personal information to protect the rights or property of IBM, our business partners, suppliers or clients, and others when we have reasonable grounds to believe that such rights or property have been or could be affected.
+In some cases, IBM uses suppliers located in various countries to collect, use, analyze, and process personal information on its behalf.
