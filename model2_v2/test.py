@@ -49,7 +49,8 @@ def normalize(data_points):
 def test(train_dir, test_dir, output_dir, model_file):
 
     Xtrain, ytrain = train.load_data(train_dir)
-    clf = pickle.load(model_file)
+    with open(model_file, "rb") as fp:
+        clf = pickle.load(fp)
 
     test_files = utils.get_files(test_dir)
 

@@ -40,7 +40,7 @@ def load_data(data_directory):
 
 
 def train(train_dir, classifier_type, model_output):
-    X, y = load_data(train_dir, "features", "labels")
+    X, y = load_data(train_dir)
     classifier = None
     if classifier_type == 'perceptron':
         classifier = Perceptron(tol=-100000,
@@ -59,7 +59,7 @@ def train(train_dir, classifier_type, model_output):
         model_output = './{}_{}.model'.format(
             classifier_type, datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
 
-    with open(model_output, "w") as fp:
+    with open(model_output, 'wb') as fp:
         pickle.dump(classifier, fp)
 
     print(classifier.score(X, y))
@@ -78,7 +78,7 @@ if __name__ == "__main__":
                         help='Training files (JSON) directory')
     parser.add_argument('--classifier_type', '-c',
                         dest='classifier_type',
-                        choices=['knn, svm, perceptron'], default='knn',
+                        choices=['knn', 'svm', 'perceptron'], default='knn',
                         help="Which classifier to use.")
     parser.add_argument('--model_output', dest='model',
                         default=None, help='where to output the model file')
@@ -89,6 +89,6 @@ if __name__ == "__main__":
 
     X, y, model_file = train(args.train_dir,
                              args.classifier_type,
-                             args.model_output)
+                             args.model)
 
     print("Model stored in {}".format(model_file))
