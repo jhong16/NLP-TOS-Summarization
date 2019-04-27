@@ -12,6 +12,8 @@
 - Set 'CLASSPATH' environment variable: 
     - ```export CLASSPATH=$CLASSPATH:<path to stanford-parser directory>```
 
+For help running model 1, `cd` into `model1` and type ```python main.py -h``` for command line options.
+
 #### Model 2 Installation Instructions
 Ensure that you are using Python 3
 
