@@ -27,7 +27,6 @@ class Sentence(object):
         rake = RAKE.Rake(RAKE.SmartStopList())
         self.keywords = rake.run(self.sentence, maxWords=maxWords, minFrequency=minFrequency)
         self.keywords_rank = sum([keyword[1] for keyword in self.keywords])
-        # self.keywords = rake.run(self.sentence)
 
 
 class WordBank(object):

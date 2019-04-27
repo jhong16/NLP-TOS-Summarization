@@ -1,7 +1,7 @@
 # from types import List
 
 from nltk.translate import bleu_score
-import rouge
+from PyRouge.PyRouge.pyrouge import Rouge
 
 # def BLEU_sentence_score(expected: str, actual: str) -> float:
 def BLEU_sentence_score(expected, actual):
@@ -25,9 +25,9 @@ def BLEU_corpus_score(expected_corpus, actual_corpus):
 
 # def ROUGE_sentence_score(expected: str, actual: str) -> float:
 def ROUGE_sentence_score(expected, actual):
-  # TODO: fix this so that it actually gives results
-  evaluator = rouge.Rouge()
-  return evaluator.get_scores([actual], [expected])
+  r = Rouge()
+  [precision, recall, f_score] = r.rouge_l([expected], [actual])
+  return precision, recall, f_score
   
 # def ROUGE_corpus_score(expected_corpus: List, actual_corpus: List) -> float:
 def ROUGE_corpus_score(expected_corpus, actual_corpus):

@@ -1,4 +1,4 @@
-from highlight import highlight
+# from highlight import highlight
 from lexrank import Summarizer
 from model import Sentence, Word, WordBank
 from sentence_compress import SentenceCompress
@@ -10,11 +10,9 @@ import re
 class SummaryModel(object):
     def __init__(self, sentence_tokens):
         self.sentences = list()
-        i = 0
-        for sentence in sentence_tokens:
+        for i, sentence in enumerate(sentence_tokens):
             words = parse.word_tokenize_sent(sentence)
             self.sentences.append(Sentence(sentence, words, i))
-            i += 1
         self.word_bank = WordBank(self.sentences)
         
 
@@ -40,14 +38,14 @@ class SummaryModel(object):
         return self.word_bank.top(top_n)
 
     def compress_sentences(self, alpha=50, beta=500, path_to_jar=None, path_to_models_jar=None):
-        compressor = SentenceCompress(alpha=alpha, beta=beta, path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar)
+        compressor = SentenceCompress(alpha=alpha, beta=beta, path_to_jar=path_to_jar, path_to_models_jar=path_to_models_jar, word_bank=self.word_bank)
         compressor.syntax_parse(self.sentences) # self.sentences is a list of Sentences
         sentences = compressor.compress()
         self.sentences = []
-        for sentence in sentences:
+        for i, sentence in enumerate(sentences):
             if len(sentence) > 0:
                 words = parse.word_tokenize_sent(sentence)
-                self.sentences.append(Sentence(sentence, words))
+                self.sentences.append(Sentence(sentence, words, i))
 
     def shorten(self, percentage):
         if percentage < 0.01 or percentage > 1:
@@ -56,12 +54,10 @@ class SummaryModel(object):
         ranks = [sentence.rank for sentence in self.sentences]
         threshold = sorted(ranks, reverse=True)[0:int(len(ranks) * percentage)][-1]
 
-        # print(f"{percentage*100}% of the Summary")
         short_summary = list()
         for sentence in self.sentences:
             if sentence.rank > threshold:
                 short_summary.append(sentence)
-                # print(f"{sentence.sentence}")
         return short_summary
 
     def top_sent(self, num):
@@ -69,14 +65,8 @@ class SummaryModel(object):
         for sentence in self.sentences:
             sent_rank.append((sentence, sentence.rank))
         
-        # print(sorted(sent_rank, reverse=True))
         top_rank = sorted(sent_rank, key=lambda x: x[1], reverse=True)[0:num]
-        # print(len(top_rank))
         order_top = [x[0] for x in top_rank]
-        # for sentence in self.sentences:
-        #     if sentence.rank in top_rank:
-        #         # print(sentence)
-        #         order_top.append(sentence)
         return order_top
 
     def keyword_summary(self, keyword):

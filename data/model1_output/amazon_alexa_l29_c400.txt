@@ -1,0 +1,29 @@
+ Alexa'' means Amazon's Alexa voice services, which includes Third Party Services, digital content, Software, the Alexa App, and support and other related services.
+ Alexa Interactions'' means all information related to your use of Alexa and Alexa Enabled Products, including your voice and other inputs, responses provided to you, information we receive in connection with Third Party Services and Auxiliary Products you use, and information and content you provide or receive through the Alexa App.
+AMCS LLC-LRB-`` AMCS''-RRB-, an affiliate of Amazon, may offer you certain Alexa-related communication services, such as the ability to send and receive messages and calls and connect with other Alexa users, and the ability to place outbound calls to phone numbers-LRB- collectively,`` Alexa Communication''-RRB-.
+You can find more information about Amazon-Processed Purchases and donations in our Alexa and Alexa Device FAQs, including applicable terms, return and refund policies, and.
+In case of such termination, Amazon may revoke your access to Alexa without refund of any fees.
+Amazon processes and retains your Alexa Interactions and related information in the cloud in order to respond to your requests-LRB- e.g.,`` Send a message''-RRB-, to provide additional functionality-LRB- e.g., speech to text transcription and vice versa-RRB-, and to improve our services.
+Alexa allows voice purchasing of physical and digital products and services, including subscriptions, from Amazon and other sellers using your default Amazon payment and shipping settings-LRB- an`` Amazon-Processed Purchase''-RRB-.
+The optional Drop In feature allows permissioned users to connect to your Alexa Enabled Products for a voice or video chat without you needing to take any action.
+Before using Alexa, please read these Alexa Terms of Use, including the Alexa Communication Schedule, the Amazon.com Privacy Notice, the Amazon.com Conditions of Use, and the other applicable rules, policies, and terms posted on the Amazon.com website, available through your Alexa App, or provided with Alexa Enabled Products-LRB- collectively, this`` Agreement''-RRB-.
+You or other call participants may be able to ask Alexa to help with certain functions during a call, such as`` Alexa, volume'' and`` Alexa, hang up.'' Certain Alexa Communication services are provided by our third party service providers, and we may provide them with information, such as telephone numbers, to provide those services.
+AMCS and its affiliates may offer services other than Alexa Communication, which are not covered and may be subject to other terms.
+The Software will provide Amazon with information about your use of Alexa, your Alexa Interactions, and your Alexa Enabled Products and Auxiliary Products-LRB- such as device type, name, features, status, network connectivity, and location-RRB-.
+Amazon processes and retains your Alexa Interactions, such as your voice inputs, music playlists, and your Alexa to-do and shopping lists, in the cloud to provide, personalize, and improve our services.
+ Alexa App'' means the app or website provided by Amazon that provides access, Alexa's settings, Alexa-related content, and other information.
+AMCS does not charge fees for Alexa Communication, but reserves the right to place limitations on use of certain services or features, including subscription or other fees.
+Without limiting the Disclaimer of Warranties and Limitation of Liability terms in the Amazon.com Conditions of Use, and unless required by applicable law, in no event will our or our licensors' or our service providers' aggregate liability with respect to any claim arising from or relating to this Agreement or your use of Alexa exceed fifty dollars.
+Your messages, communications requests-LRB- e.g.,`` Alexa, call Mom''-RRB-, and related interactions are`` Alexa Interactions,'' as described in the Alexa Terms of Use.
+For help with Alexa or resolving other issues, please contact Customer Service by e-mail: alexa-support@amazon.com or by phone at 1-877-375-9365-LRB- toll free-RRB- when dialing in the US or at-LRB-206-RRB--LRB- charges may apply-RRB- when dialing.
+You can require a speakable confirmation code, turn off voice purchasing, and see product and order details for Amazon-Processed Purchases in your Alexa App.
+Your continued use of Alexa after the effective date of the revised Agreement constitutes your acceptance of the terms.
+You provide your phone number when registering for Alexa Communication.
+If you do not accept the terms of this Agreement, then you may not use Alexa.
+Alexa Enabled Products and Auxiliary Products include third party products that Amazon does not manufacture or develop.
+ Alexa Enabled Product'' means any product or application that enables access, such as Amazon Echo devices and the Alexa App.
+You may use the Software on or through an Alexa Enabled Product or Auxiliary Product, and you may make personal and non-commercial use of Alexa.
+Any dispute or claim arising from or relating to this Agreement or Alexa is subject to the binding arbitration, governing law, disclaimer and all other terms in the Amazon.com Conditions of Use.
+For additional terms that apply, see the software terms contained in the Amazon.com Conditions of Use and the terms contained in the Legal& Compliance section in the Help menu of your Alexa App.
+For example, we use this information to identify most likely call recipients-LRB- e.g., when you ask`` Alexa, call Bill,'' Alexa can identify which Bill you want to contact-RRB-.
+You control Alexa with your voice.
