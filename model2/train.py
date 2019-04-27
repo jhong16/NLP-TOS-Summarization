@@ -54,9 +54,9 @@ def main(training_files, to_summarize, output_file):
         else:
             y = np.append(y, y2, axis=0)
 
-    # clf = Perceptron(tol=-100000, random_state = 0, max_iter = 50000, penalty='l2')
+    clf = Perceptron(tol=-100000, random_state = 0, max_iter = 50000, penalty='l2')
     # clf = LinearSVC()
-    clf = KNeighborsClassifier(n_neighbors=3)
+    # clf = KNeighborsClassifier(n_neighbors=1)
 
     max_min = normalize(X)
 

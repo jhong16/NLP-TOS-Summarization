@@ -1,0 +1,87 @@
+<PARAGRAPH>
+Intuit®:
+Legal Information
+Toggle navigation
+United States (English)
+Canada
+(English)
+Canada (Français)
+<PARAGRAPH>
+Sign
+In
+Trademark, Copyright, and Licensing Guidelines
+---
+Trademarks
+---
+Authenticity
+---
+Licenses
+---
+Piracy
+Patent Information
+Features and services within
+Intuit Inc. ("Intuit") products may be the subject matter of pending and issued patents assigned to Intuit.
+<PARAGRAPH>
+Trademark Information
+Intuit, the Intuit logo, QuickBooks, QB, Turbo, TurboTax, Mint, Lacerte, ProSeries and Intuit ProConnect, among others, are registered trademarks and/or registered service marks of Intuit Inc., or one of its subsidiaries, in the United States and other countries.
+For more information on Intuit's trademarks, please see our Trademark Information and Restrictions page.
+<PARAGRAPH>
+Copyright Information
+ Intuit's products, services, web content and related materials (collectively, "Offerings") are owned by Intuit and/or its licensors, and all rights in such Offerings are reserved by Intuit and/or its licensors.
+For information regarding permission to use screen displays and other content, please see Intuit's Permissions Policy.
+<PARAGRAPH>
+Intuit's Anti-Piracy Information resource provides basic information on software piracy and its negative effects on businesses and consumers, including the risks associated with purchasing or using counterfeit optical disc media.
+This resource also includes information on how to check certain products for authenticity and how to report piracy directly to Intuit.
+<PARAGRAPH>
+Copyright Infringement Notification
+Intuit respects the intellectual property rights of others and expects that the users of our Offerings do the same.
+Persons who believe that their copyrighted work has been used in a way that may constitute copyright infringement and is accessible through an Intuit Offering may notify Intuit's Designated Agent, as set forth in the Digital Millennium Copyright Act of 1998 (DMCA).
+<PARAGRAPH>
+All such notices must comply with the requirements of U.S.
+Copyright Act 17 U.S.C.
+512(c)(3) and regulations promulgated thereunder, each as amended.
+Such notices not complying with these requirements will not be processed.
+No other notices or inquiries of any type, including requests for information, purchase or technical support questions, notices of infringement of third-party trademark or patent rights, employment inquiries, press inquiries, or investor inquiries, will be read or answered under this Agent and Agent Address.
+<PARAGRAPH>
+Designated Agent and Address of Agent:
+Attn: Legal Department - Copyright Agent
+ Intuit Inc.
+ 2700 Coast Avenue
+ Mountain View, CA 94043
+Telephone: (650) 944-6000
+Fax: (650) 944-5656
+ Email: copyright@intuit.com
+<PARAGRAPH>
+Under Section 512(f) of the DMCA any person who knowingly materially misrepresents materials or activity is infringing may be subject to liability for damages (including costs and attorney fees).
+Lastly, the information provided to Intuit in a copyright infringement notification may be forwarded to the person who provided the allegedly infringing materials.
+<PARAGRAPH>
+Risk of Loss
+<PARAGRAPH>
+All items purchased and shipped from Intuit are fulfilled pursuant to a shipment contract between Intuit and our carriers.
+This means that both the risk of loss and title for such items pass to you upon our delivery of the items to the carrier.
+<PARAGRAPH>
+Licensing
+For licensing information related to money transmission services offered by Intuit Payments Inc., please refer to licenses.
+<PARAGRAPH>
+For Texas residents, if you have a complaint regarding money transmission services, please contact Mint Care at 855-646-3486.
+If you still have an unresolved complaint regarding the company's money transmission activity, please direct your complaint to the Texas Department of Banking, 2601 North Lamar Boulevard, Austin, Texas, 78705, 1-877-276-5554 (toll free), www.dob.texas.gov
+Licensing and Support
+For licensing and product support related inquiries, please refer to Intuit Support.
+<PARAGRAPH>
+QuickBooks ProAdvisor® Inquiries
+For questions related to the QuickBooks ProAdvisor Program, please contact ProAdvisor Support.
+To connect with a QuickBooks ProAdvisor, you can conduct a search here: www.findaproadvisor.com.
+<PARAGRAPH>
+Note: QuickBooks ProAdvisors are not Intuit employees and their actions, opinions and positions do not necessarily represent those of Intuit.
+<PARAGRAPH>
+Intuit® Reseller Inquiries
+For more information about the Intuit Reseller Program, please see www.intuitreseller.com.
+To connect with an Intuit Reseller, you can conduct a search here: www.intuitresellerlocator.com.
+Note: Intuit Resellers are not Intuit employees and their actions, opinions and positions do not necessarily represent those of Intuit.
+<PARAGRAPH>
+Intuit®Partner Platform Inquiries
+<PARAGRAPH>
+For questions related to the Intuit Partner Platform program, please contact Developer Support.
+<PARAGRAPH>
+Other Help
+Please see Contact Us.

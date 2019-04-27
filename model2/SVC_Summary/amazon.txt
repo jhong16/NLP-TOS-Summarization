@@ -1,0 +1,2 @@
+Amazon processes and retains your Alexa Interactions, such as your voice inputs, music playlists, and your Alexa to-do and shopping lists, in the cloud to provide, personalize, and improve our services.
+For any Amazon-Processed Purchase that is a subscription to a Third Party Service, (i) we or the third party may cancel the subscription at any time, for example, if the applicable service is no longer available, in which case you will receive a prorated refund, and(ii) terms and prices may change from time to time, effective as of the beginning of the next subscription term.

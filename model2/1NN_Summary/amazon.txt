@@ -1,0 +1,33 @@
+This is an agreement between you and Amazon Digital Services LLC (with its affiliates, "Amazon" or "we").
+By using Alexa, you agree to be bound by the terms of this Agreement.
+"Software" means all software that we make available to you for use in connection with Alexa.
+"Third Party Service" means any service or application provided by a third party that we make available to you for use on or through Alexa.
+You may use the Software only on or through an Alexa Enabled Product or Auxiliary Product, and you may only make personal and non-commercial use of Alexa.
+Amazon processes and retains your Alexa Interactions, such as your voice inputs, music playlists, and your Alexa to-do and shopping lists, in the cloud to provide, personalize, and improve our services.
+Alexa allows voice purchasing of physical and digital products and services, including subscriptions, from Amazon and other sellers using your default Amazon payment and shipping settings (an “Amazon-Processed Purchase”).
+These settings may not apply to purchases that are not Amazon-Processed Purchases (such as when you provide a credit card directly to the provider of a Third-Party Service), and we are not a party to, and have no responsibility for, those purchases.
+Amazon-Processed Purchases are subject to the Amazon.com Privacy Notice, Amazon.com Conditions of Use, and, in the case of a subscription, the terms for the applicable service.
+If you make an Amazon-Processed Purchase of, or start a free trial for, a subscription, your subscription will automatically continue at the applicable subscription price at the end of the free trial period (if any) and each renewal period, unless you notify us before a charge that you want to cancel or do not want to automatically renew your subscription.
+You can find more information about Amazon-Processed Purchases and donations in our Alexa and Alexa Device FAQs, including applicable terms, return and refund policies, and how to cancel subscriptions.
+You can also create a voice profile, so Alexa can call you by name and do more to personalize your experience.
+You can turn off automatic voice recognition or delete any voice profile you’ve created.
+If you do not accept the third party terms applicable to a Third Party Service, do not use that Third Party Service.
+Amazon has no responsibility or liability for Third Party Services.
+Publishers of Third Party Services may change or discontinue the functionality or features of their Third Party Service.
+Amazon has no responsibility or liability for such third party products or manufacturer-provided firmware.
+This information may be stored on servers outside the country in which you live.
+We will handle any information we receive in accordance with the Amazon.com Privacy Notice.
+We do not guarantee that Alexa or its functionality or content (including traffic, health, or stock information) is accurate, reliable, always available, or complete.
+Amazon has no responsibility or liability for such content.
+We may change, suspend, or discontinue Alexa, or any part of it, at any time without notice.
+Your continued use of Alexa after the effective date of the revised Agreement constitutes your acceptance of the terms.
+We may restrict access to Alexa from other locations.
+Your rights under this Agreement will automatically terminate without notice if you fail to comply with any of its terms.
+Amazon's failure to insist upon or enforce your strict compliance with this Agreement will not constitute a waiver of any of its rights.
+This schedule is part of the Alexa Terms of Use and you agree to these terms when you register for or use Alexa Communication.
+Your messages, communications requests (e.g., “Alexa, call Mom”), and related interactions are “Alexa Interactions,” as described in the Alexa Terms of Use.
+Alexa Communication are not a replacement for traditional two-way telephone or mobile phone service, and do not function as such.
+The optional Drop In feature allows permissioned users to instantly connect to your Alexa Enabled Products for a voice or video chat without you needing to take any action.
+Users with Drop In permission may see an indicator to let them know if your device has been recently active.
+AMCS does not currently charge fees for Alexa Communication, but reserves the right to place limitations on use of certain services or features, including subscription or other fees.
+You and/or the recipient of your calls or messages may be required to pay carrier fees for data usage.

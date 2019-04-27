@@ -1,0 +1,13 @@
+You may be a member of an organization on GitHub with its own terms or license agreements; you may download an application that integrates with GitHub; or you may use GitHub to authenticate to another service.
+
+If you are a government User or otherwise accessing or using any GitHub Service in a government capacity, this Government Amendment to GitHub Terms of Service applies to you, and you agree to its provisions.
+
+If you set your pages and repositories to be viewed publicly, you grant each User of GitHub a nonexclusive, worldwide license to use, display, and perform Your Content through the GitHub Service and to reproduce Your Content solely on GitHub as permitted through GitHub's functionality.
+
+All use of the GitHub API is subject to these Terms of Service and the GitHub Privacy Statement.
+
+If you buy Developer Products through GitHub Marketplace, the GitHub Marketplace Terms of Service controls your purchase.
+
+GitHub does not warrant that the Service will meet your requirements; that the Service will be uninterrupted, timely, secure, or error-free; that the information provided through the Service is accurate, reliable or correct; that any defects or errors will be corrected; that the Service will be available at any particular time or location; or that the Service is free of viruses or other harmful components.
+
+GitHub may assign or delegate these Terms of Service and/or the GitHub Privacy Statement, in whole or in part, to any person or entity at any time with or without your consent, including the license grant in Section D.4.

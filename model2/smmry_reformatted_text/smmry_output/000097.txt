@@ -1,0 +1,13 @@
+1.2 Most activity on Twitter is public, including your profile information, your time zone and language, when you created your account, and your Tweets and certain information about your Tweets like the date, time, and application and version of Twitter you Tweeted from.
+
+If you update your public information on Twitter, such as by deleting a Tweet or deactivating your account, we will reflect your updated content on Twitter.com, Twitter for iOS, and Twitter for Android.
+
+In addition to providing your public information to the world directly on Twitter, we also use technology like application programming interfaces and embeds to make that information available to websites, apps, and others for their use - for example, displaying Tweets on a news website or analyzing what people say on Twitter.
+
+Whenever you use Twitter, Twitter gets a general sense of your location from things like the network you're using to access the Internet.
+
+You can turn on Twitter's location services, letting Twitter pinpoint your position.
+
+You can see Twitter content on Twitter's website and apps - but many other websites also choose to include Twitter content.
+
+2.8 We may receive information about you from third parties who are not our ad partners, such as others on Twitter, partners who help us evaluate the safety and quality of content on our platform, our corporate affiliates, and other services you link to your Twitter account.
