@@ -67,9 +67,6 @@ class SummaryModel(object):
         
         top_rank = sorted(sent_rank, key=lambda x: x[1], reverse=True)[0:num]
         order_top = [x[0] for x in top_rank]
-        # for sentence in self.sentences:
-        #     if sentence.rank in top_rank:
-        #         order_top.append(sentence)
         return order_top
 
     def keyword_summary(self, keyword):

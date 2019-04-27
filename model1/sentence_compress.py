@@ -40,18 +40,20 @@ class SentenceCompress:
 					print(s)
 		return compressed_sentences
 
-	# input might be Ji hann's word class, which might include POS tag, named entity, that sort of thing 
-	# this should be a word object
 	def word_significance(self, w): # I_j(w_i)
+		""" Find significance of word based on tf and idf scores in word bank structure.
+			Ideally this would use POS tagging to differentiate between proper and common
+			nouns. """
 		if w in self.word_bank.word_dict:
 			word = self.word_bank.word_dict[w]
-			if w[0].islower(): # for now. should be if common noun
+			if w[0].islower(): # for now. should be if common noun (or another type)
 				return word.tf * word.idf # tf_ij x idf_i if w_i is verb or common noun
 			elif w[0].isupper(): # for now. should if proper noun
 				return word.tf * word.idf + self.omega # tf_ij x idf_i + omega if w_i is proper noun
 		return 0 # 0 otherwise
 
 	def information_density_measurement(self):
+		""" This measures quality of compression. """
 		# TODO: implement (if needed)
 		pass
 
@@ -82,7 +84,6 @@ class SentenceCompress:
 				elif clause_sig >= 0.01 and node.label() in phrases:
 					print("not getting rid of: ", self.tree_to_sentence(node))
 			else: # word string
-				# return word_significance
 				word_sig = self.word_significance(node) # I need to have a fast way of looking up word object
 				if word_sig > self.omega:
 					clause_sig += word_sig
@@ -118,7 +119,6 @@ class SentenceCompress:
 					for index2, child_node in enumerate(node):
 						if type(child_node) == Tree and child_node.label() == decl_clause:
 							return node[index2]
-					# return tree[index,0] # not necessarily at 0 index...
 				else: # keep going down the tree...
 					subtree = self.set_1_remove_outer_xp(node, decl_clause)
 					if subtree is not None:
@@ -162,8 +162,8 @@ class SentenceCompress:
 			self.set_1_trailing(tree, phrase)
 		return tree
 
-	# given a subtree, get is significance
 	def clause_significance(self, tree):
+		""" Given a subtree, get is significance. """
 		clause_sig = 0
 		for index, node in enumerate(tree):
 			if type(node) == Tree:
@@ -173,8 +173,8 @@ class SentenceCompress:
 		return clause_sig
 
 	def tree_to_sentence_helper(self, tree, sentence_str):
-		""" Recursive helper to convert nltk tree, which may have nodes with value 'None',
-			to sentence """
+		""" Recursive helper to convert nltk tree, which may have nodes with value
+			'None', to sentence """
 		for index, node in enumerate(tree):
 			if type(node) == Tree:
 				sentence_str = self.tree_to_sentence_helper(node, sentence_str)
@@ -186,7 +186,8 @@ class SentenceCompress:
 		return sentence_str
 
 	def tree_to_sentence(self, tree):
-		""" convert nltk tree, which may have nodes with value 'None', to sentence. """
+		""" Convert nltk tree, which may have nodes with value 'None',
+			to sentence. """
 		s = self.tree_to_sentence_helper(tree, '').strip()
 		if len(s) == 0:
 			return s
@@ -214,8 +215,3 @@ class SentenceCompress:
 # - can I try to get rid of some things in really long lists if word importance is low enough?
 # - constructions of form [XP [XP ..] ...], remove higher XP, where XP is NP, VP or S (requires choosing subtree and getting rid of rest)
 # - trailing prepositional phrases (PP) and SBARs
-
-# will I be assigning importance to clauses, and then running over tree again to choose what to ignore, or doing it on the fly?
-# do I need a function to go over trimmed tree and reconstruct it? let's hope it will still make sense.
-
-# start from deepest rightmost node when iteratively getting rid of things?

@@ -32,7 +32,6 @@ def main():
 	group = parser.add_mutually_exclusive_group()
 	group.add_argument("--num_sentences", type=int, default=7, help="Desired length as number of sentences.")
 	group.add_argument("--percent", type=float, help="Desired length as percentage of original ToS") # default=0.2
-	# I should make this a nicer number to use, like percentage or number of words
 	parser.add_argument("--compression_level", type=int, default=500, help="Approximate desired maximum length of sentences in characters.")
 	parser.add_argument("--path_to_jar", type=str, default=None, help="The parser jar file")
 	parser.add_argument("--path_to_models_jar", type=str, default=None, help="The parser model jar file")
@@ -54,8 +53,6 @@ def main():
 	model.rank_sentences()
 	model.rake_sentences(maxWords=2, minFrequency=1)
 	top_sent = model.top_keyword_sent(7)
-	# for sentence in top_sent:
-	# 	print(sentence.sentence)
 
 	# Print the 10 most common words
 	# print(model.common_words(10))

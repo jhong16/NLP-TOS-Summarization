@@ -14,8 +14,8 @@ class Summarizer(object):
 		self.epsilon = 0.1
 		self.threshold = 0.1
 
-	# adjacency matrix, since graph is dense
 	def create_graph(self, sentences):
+		''' Create adjacency matrix, since graph is dense. '''
 		self.sentences = sentences
 		self.term_freq = self.compute_tf(sentences)
 		self.inverse_doc_freq = self.compute_idf()
@@ -35,7 +35,6 @@ class Summarizer(object):
 				else:
 					self.graph[u][v] = 0.0
 
-		# TODO: implement
 		# then iterate again to compute ranking based on weights
 		for u in range(n):
 			for v in range(n):
@@ -47,15 +46,14 @@ class Summarizer(object):
 
 		return self.graph
 
-	# TODO: implement
 	def compute_similarity(self, sentence1, sentence2):
+		''' Compute similarity of two sentences. '''
 		return self.idf_modified_cosine(sentence1, sentence2)
 
-	# compute term frequency (could still be useful)
-	# should this actually be number of times word occurs in sentence?
 	def compute_tf(self, sentences):
+		''' Compute term frequency. '''
 		total_words = sum(len(s) for s in sentences)
-		term_freq = dict() # sum(s.count() for s in sentences)
+		term_freq = dict()
 
 		# find frequencies of words in document and in individual sentence
 		for s in sentences:
@@ -93,14 +91,13 @@ class Summarizer(object):
 		return inverse_doc_freq
 
 	def idf_modified_cosine(self, sentence1, sentence2):
+		''' Compute idf modified cosine score from LexRank. '''
 		unique_words_1 = set(sentence1) - self.stop_words
 		unique_words_2 = set(sentence2) - self.stop_words
 		common_words = unique_words_1 & unique_words_2
 
 		numerator = 0
 		for w in common_words:
-			# did I not do term_freq in the right way?
-			# should it be more on a sentence level?
 			numerator += (self.term_freq[w] * self.inverse_doc_freq[w]) ** 2
 
 		sum1 = 0
@@ -114,6 +111,7 @@ class Summarizer(object):
 		return numerator / float(denominator)
 
 	def power_method(self):
+		''' power method for computing stationary distribution of Markov Chain. '''
 		n = len(self.sentences)
 		transposed_graph = self.graph.T
 		p_t = np.full(n, 1.0 / float(n))
@@ -127,6 +125,7 @@ class Summarizer(object):
 		return p_t
 
 	def rank_sentences(self, p_vector):
+		'''' Rank sentences using vector of weights. '''
 		assert len(p_vector) == len(self.sentences)
 		sentence_to_ranking = dict()
 		for i in range(len(self.sentences)):
