@@ -1,0 +1,147 @@
+<PARAGRAPH>
+Legal Agreements - GoDaddy Respects
+Your Privacy
+GoDaddy
+Subpoena Policy/Attorney Tips
+GoDaddy.com, LLC Subpoena Policy/Attorney Tips
+GoDaddy's Privacy Policy prohibits the release of customer or account information without express permission from the customer, except when required by law, to conform to the edicts of the law, or to comply with legal process properly served on GoDaddy or one of its affiliates.
+<PARAGRAPH>
+If you seek the identity or account information of a GoDaddy customer in connection with a civil or criminal legal matter, you must fax, mail, or serve GoDaddy.com, LLC with a valid subpoena.
+For criminal matters, you must be a member of the law enforcement community.
+<PARAGRAPH>
+Submission of Subpoenas
+GoDaddy is headquartered in Scottsdale, Arizona and all subpoenas should be served at that location or mailed to:
+Compliance Department GoDaddy.com, LLC 14455 North Hayden Rd., Suite 219 Scottsdale, AZ 85260
+<PARAGRAPH>
+Alternatively, the subpoena can be faxed to:
+(480) 624-2546 Attn: Compliance Department
+Policies Regarding E-mail
+GoDaddy will not produce the content of e-mail, as the Electronic Communications Privacy Act, 18 U.S.C.
+§
+2701 et seq.
+, prohibits an electronic communications service provider from producing the contents of electronic communications, even pursuant to subpoena or court order, except in limited circumstances.
+GoDaddy's e-mail servers do not retain deleted or sent e-mail.
+<PARAGRAPH>
+GoDaddy reserves the right to request a copy of the complaint and any supporting documentation that demonstrates how the GoDaddy e-mail address is related to the pending litigation and the underlying subpoena.
+<PARAGRAPH>
+Terms Specific to Civil Subpoenas:
+Notice to Customer and Response Time
+<PARAGRAPH>
+Upon the receipt of a valid civil subpoena, GoDaddy will promptly notify the customer whose information is sought via e-mail or U.S. mail.
+If the circumstances do not amount to an emergency, GoDaddy will not immediately produce the customer information sought by the subpoena and will provide the customer an opportunity to move to quash the subpoena in court.
+GoDaddy reserves the right to charge an administration fee to the customer by charging the Payment Method the customer has on file with GoDaddy.
+<PARAGRAPH>
+Fees for Subpoena Compliance
+GoDaddy will charge the person or entity submitting the civil subpoena for costs associated with subpoena compliance.
+Payment must be made within thirty (30) days from the date of receipt of the GoDaddy invoice.
+Checks should be made out to GoDaddy.com, LLC
+GoDaddy's subpoena compliance costs are as follows:
+---Research - $75.00/hour
+<PARAGRAPH>
+---Federal Express - Cost as Billed
+---Copies - $.25/page
+<PARAGRAPH>
+TREATMENT OF CONFIDENTIAL INFORMATION
+Documents and information produced by GoDaddy in response to a subpoena may contain confidential, proprietary, trade secret, and/or private information that warrants special protection from public disclosure.
+Any such documents will be designated "CONFIDENTIAL" by a stamp affixed to the documents at issue, and must be given confidential treatment by all persons and entities that access them.
+Confidential treatment includes the following:
+First, access to CONFIDENTIAL documents must be limited to the parties in the underlying action pursuant to which the subpoena was served, their agents, and the court and its personnel.
+Documents designated as CONFIDENTIAL may be used during the deposition of a witness in the underlying action to whom disclosure is reasonably necessary, provided that any deposition testimony related to CONFIDENTIAL documents or portions thereof is designated "CONFIDENTIAL" and afforded treatment in the manner required by this provision.
+<PARAGRAPH>
+Second, CONFIDENTIAL documents must not be filed in the public record absent a reasonable attempt to ensure the filing of such documents, and any references thereto, under seal.
+A party that seeks to file any motion, brief, or other document that attaches or refers to any CONFIDENTIAL document or portion thereof must take the steps necessary to request a court order sealing the CONFIDENTIAL information at issue.
+If the court denies a motion to seal made pursuant to this Subpoena Policy, the party may file the document(s) at issue normally, unless otherwise instructed by the court.
+<PARAGRAPH>
+Third, CONFIDENTIAL documents produced in response to a subpoena may not be used for any purpose other than prosecuting or defending the action in which the subpoena is served, and must be destroyed within sixty (60) days after the final disposition of the underlying action.
+The person or entity that submits the subpoena is responsible for ensuring that each person or entity to whom any CONFIDENTIAL documents were made available complies with this requirement.
+<PARAGRAPH>
+SUBMITTING COURT AND OTHER LEGAL DOCUMENTS TO GODADDY.COM, LLC
+<PARAGRAPH>
+You can contact the Domain Disputes Department at GoDaddy with questions regarding UDRP proceedings, litigation or other legal disputes involving domain names registered with GoDaddy or website content hosted with GoDaddy.
+Please review the following information and contact us regarding domain name disputes before filing a new legal action or if you have any other questions:
+Hours of Operation:          Monday-Friday 8am-5pm
+(Mountain Time)
+Litigation or Legal Disputes Address:
+courtdisputes@godaddy.com
+UDRP Correspondence Address:                        UDRPdisputes@godaddy.com
+<PARAGRAPH>
+If GoDaddy is the registrar of the domain name in dispute or is hosting the content that is the subject of my complaint, do I need to name GoDaddy in the legal action I file?
+<PARAGRAPH>
+No.
+It is not necessary to name GoDaddy in a legal dispute regarding a domain name registered or hosted at GoDaddy.
+GoDaddy will comply with any Order issued by a court of competent jurisdiction regarding the final disposition of the domain name or website at issue.
+<PARAGRAPH>
+Is it necessary to name Domains By Proxy in a legal action I file if the domain name uses Domains by Proxy’s privacy service?
+<PARAGRAPH>
+No.
+It is not necessary to name Domains by Proxy in a legal dispute.
+Domains by Proxy is a private registration service and has no control over the domain name or any associated website content.
+Like Go Daddy, Domains
+By Proxy will comply with any Order issued by a court of competent jurisdiction.
+<PARAGRAPH>
+What is the best way to submit court documents to GoDaddy?
+<PARAGRAPH>
+Litigation or legal dispute court documents can be sent to courtdisputes@godaddy.com.
+UDRP correspondence can be sent to UDRPdisputes@godaddy.com.
+Electronic copies via email are preferred and do not need to be followed up with hard copies.
+<PARAGRAPH>
+What should be included in court orders sent to GoDaddy?
+<PARAGRAPH>
+Court orders should be as specific as possible, but at a minimum, must include:
+•
+The affected domain name(s)
+and, for content we are hosting, the specific URLs where the hosted content is located.
+(Please only provide us with orders for content we host.)
+<PARAGRAPH>
+•
+The specific action that GoDaddy is being requested to take regarding the domain name and/or associated website.
+<PARAGRAPH>
+•
+If plaintiff is seeking control of a customer’s GoDaddy account, the court order must specify the GoDaddy account number.
+(Please only pursue this option if all domain names in the account are related to the litigation.)
+<PARAGRAPH>
+Can non-US based court documents be submitted?
+<PARAGRAPH>
+Yes.
+If the documents are not in English, we require the following:
+<PARAGRAPH>
+•
+Original court-stamped copy, and
+<PARAGRAPH>
+•
+A certified translation of the court-stamped copy into English.
+<PARAGRAPH>
+Are there additional requirements for Settlement Agreements?
+<PARAGRAPH>
+Yes.
+In order for GoDaddy to implement terms associated with a settlement agreement, the settlement agreement must:
+<PARAGRAPH>
+•
+Involve litigation;
+<PARAGRAPH>
+•
+Have notarized signatures from both parties;
+<PARAGRAPH>
+•
+Specify the affected domain name(s); and
+<PARAGRAPH>
+•
+Include a statement that the litigation will be dismissed with prejudice.
+<PARAGRAPH>
+Are there additional requirements for Receiverships?
+<PARAGRAPH>
+Yes.
+All receivership orders must:
+<PARAGRAPH>
+•
+Explicitly list the domain name(s) that are to be moved separately from other assets, and
+<PARAGRAPH>
+•
+State that the Receiver is to manage and/or sell the domain name(s).
+<PARAGRAPH>
+Revised:
+2/14/19
+<PARAGRAPH>
+Copyright ©
+2004-2019 GoDaddy.com,
+LLC All Rights Reserved.

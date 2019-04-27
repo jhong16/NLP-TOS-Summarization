@@ -1,0 +1,13 @@
+Personal data associated with your Microsoft account includes credentials, name and contact data, payment data, device and usage data, your contacts, information about your activities, and your interests and favorites.
+
+Below you will find additional privacy information, such as how we secure your data, where we process your data, and how long we retain your data.
+
+For any complaints related to the Privacy Shield frameworks that Microsoft cannot resolve directly, we have chosen to cooperate with the relevant EU Data Protection Authority, or a panel established by the European data protection authorities, for resolving disputes with EU individuals, and with the Swiss Federal Data Protection and Information Commissioner for resolving disputes with Swiss individuals.
+
+Is Microsoft subject to a legal, contractual, or similar obligation to retain or delete the data? Examples can include mandatory data retention laws in the applicable jurisdiction, government orders to preserve data relevant to an investigation, or data retained for the purposes of litigation.
+
+We use Customer Data, Support Data, and Personal Data as described in the OST and the Microsoft Trust Center.
+
+Customer is the controller of Personal Data and Microsoft is the processor of such data, except when Customer acts as a processor of Personal Data, in which case Microsoft is a subprocessor or stated otherwise in the OST.Administrator Data is the information provided to Microsoft during sign-up, purchase, or administration of Enterprise Online Services.
+
+Your organization may use management tools provided by Microsoft or others to access and process your data from that device, including your interaction data, diagnostic data, and the contents of your communications and files.

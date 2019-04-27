@@ -1,8 +1,6 @@
 import os
 from argparse import ArgumentParser
-from nltk import sent_tokenize
 import feature_creation as fc
-
 
 def main(input_dir, truth_dir, output_dir):
     filenames = []
